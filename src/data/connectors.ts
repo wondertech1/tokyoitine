@@ -33,7 +33,7 @@ export const CONNECTOR_PAGES: Guide[] = [
     icon: "⚖️",
     stats: [
       { value: "2", label: "CITIES" },
-      { value: "2h14m", label: "SHINKANSEN" },
+      { value: "about 2h15m", label: "SHINKANSEN" },
       { value: "¥14,170", label: "ONE WAY" },
       { value: "BOTH", label: "ANSWER" },
     ],
@@ -55,7 +55,7 @@ export const CONNECTOR_PAGES: Guide[] = [
         content: [
           {
             type: "prose",
-            text: "Visit both. Seriously. They're complementary, not competing. Tokyo is the future — neon, tech, pop culture, skyscrapers, the world's best food city. Kyoto is the past — 2,000 temples, geisha districts, bamboo forests, tea ceremonies, zen gardens. Together they give you the full Japan experience.\n\nIf you genuinely can only pick one:",
+            text: "Visit both. Seriously. They're complementary, not competing. Tokyo is the future — neon, tech, pop culture, skyscrapers, the world's best food city. Kyoto is the past — 2,000 temples and shrines, geisha districts, bamboo forests, tea ceremonies, zen gardens. Together they give you the full Japan experience.\n\nIf you genuinely can only pick one:",
           },
           {
             type: "comparison",
@@ -183,7 +183,7 @@ export const CONNECTOR_PAGES: Guide[] = [
           },
           {
             type: "prose",
-            text: "The most common mistake: spending too many days in Kyoto. 3–4 days is the sweet spot. After that, temple fatigue is real — they start blending together. Tokyo has more variety to sustain 5–7 days without repetition.\n\n**Recommended split for 10 days:**\n\nDays 1–5: Tokyo (use the 5-day itinerary)\nDay 6: Shinkansen to Kyoto (2h14m), afternoon in Gion\nDays 7–9: Kyoto (temples, Arashiyama, Nara day trip)\nDay 10: Kyoto → Kansai Airport, or continue to Osaka",
+            text: "The most common mistake: spending too many days in Kyoto. 3–4 days is the sweet spot. After that, temple fatigue is real — they start blending together. Tokyo has more variety to sustain 5–7 days without repetition.\n\n**Recommended split for 10 days:**\n\nDays 1–5: Tokyo (use the 5-day itinerary)\nDay 6: Shinkansen to Kyoto (about 2h15m), afternoon in Gion\nDays 7–9: Kyoto (temples, Arashiyama, Nara day trip)\nDay 10: Kyoto → Kansai Airport, or continue to Osaka",
           },
         ],
       },
@@ -195,13 +195,13 @@ export const CONNECTOR_PAGES: Guide[] = [
         content: [
           {
             type: "prose",
-            text: "Shinkansen (bullet train) is the only sensible option. Nozomi is fastest at 2h14m. Hikari takes 2h40m but is covered by JR Pass. Kodama is slow (3h40m) — skip it.",
+            text: "Shinkansen (bullet train) is the only sensible option. Nozomi is fastest at about 2h15m. Hikari takes 2h40m but is covered by JR Pass. Kodama is slow (3h40m) — skip it.",
           },
           {
             type: "table",
             headers: ["Train", "Time", "Cost", "JR Pass"],
             rows: [
-              ["Nozomi", "2h14m", "¥14,170", "❌ Not covered"],
+              ["Nozomi", "about 2h15m", "¥14,170", "❌ Not covered"],
               ["Hikari", "2h40m", "¥14,170", "✅ Covered"],
               ["Kodama", "3h40m", "¥14,170", "✅ Covered"],
             ],
@@ -242,7 +242,7 @@ export const CONNECTOR_PAGES: Guide[] = [
     color: "#1565C0",
     icon: "🚅",
     stats: [
-      { value: "2h14m", label: "FASTEST" },
+      { value: "about 2h15m", label: "FASTEST" },
       { value: "¥14,170", label: "ONE WAY" },
       { value: "3", label: "TRAIN OPTIONS" },
       { value: "1", label: "BEST SEAT" },
@@ -266,14 +266,14 @@ export const CONNECTOR_PAGES: Guide[] = [
             type: "table",
             headers: ["Train", "Time", "Cost", "JR Pass", "Best For"],
             rows: [
-              ["Nozomi", "2h14m", "¥14,170", "❌", "Speed. Most departures (3–6/hour)."],
+              ["Nozomi", "about 2h15m", "¥14,170", "❌", "Speed. Most departures (3–6/hour)."],
               ["Hikari", "2h40m", "¥14,170", "✅", "JR Pass holders. Same price, slightly slower."],
               ["Kodama", "3h40m", "¥14,170", "✅", "Nobody. Stops at every station."],
             ],
           },
           {
             type: "prose",
-            text: "Take the Nozomi unless you have a JR Pass. Same price, 26 minutes faster, way more departures. If you have a JR Pass, take the Hikari — same comfort, just a couple extra stops.",
+            text: "Take the Nozomi unless you have a JR Pass. Similar price, about 25 minutes faster, way more departures. If you have a JR Pass, take the Hikari — same comfort, just a couple extra stops.",
           },
           {
             type: "tip",
@@ -291,11 +291,11 @@ export const CONNECTOR_PAGES: Guide[] = [
             type: "checklist",
             items: [
               { text: "Go to Tokyo Station (JR lines, Marunouchi side). Follow signs for 'Shinkansen' — look for the green JR signs.", checked: true },
-              { text: "Buy ticket: Suica doesn't work on shinkansen. Buy at the JR ticket counter (green window) or the ticket machines (English available). Or use SmartEX app (reserve from your phone, tap in with QR code).", checked: true },
+              { text: "Buy ticket: A regular Suica alone won't work on the shinkansen — buy a ticket at the counter, use a ticket machine, or register your Suica in the SmartEX app (reserve from your phone, board using QR code or registered IC card).", checked: true },
               { text: "Choose unreserved (jiyuseki) or reserved (shiteiseki). Unreserved is fine outside peak seasons — just queue at the platform. Reserved guarantees a seat.", checked: true },
               { text: "Go to platforms 14–19 (Tokaido Shinkansen). Check the departure board for your train.", checked: true },
               { text: "Board. Stow luggage in overhead rack or the space behind the last row of seats. Large suitcases: use the luggage reservation area (newer trains have designated spots).", checked: true },
-              { text: "Arrive Kyoto Station 2h14m later. You're in the center of the city.", checked: true },
+              { text: "Arrive Kyoto Station about 2h15m later. You're in the center of the city.", checked: true },
             ],
           },
           {
@@ -355,7 +355,7 @@ export const CONNECTOR_PAGES: Guide[] = [
         content: [
           {
             type: "prose",
-            text: "Don't waste a full day on transit. The shinkansen is only 2h14m — you can do a half-day in Tokyo AND a half-day in Kyoto.",
+            text: "Don't waste a full day on transit. The shinkansen is only about 2h15m — you can do a half-day in Tokyo AND a half-day in Kyoto.",
           },
           {
             type: "checklist",
@@ -416,7 +416,7 @@ export const CONNECTOR_PAGES: Guide[] = [
     icon: "🚅",
     stats: [
       { value: "2h30m", label: "SHINKANSEN" },
-      { value: "¥14,720", label: "ONE WAY" },
+      { value: "¥14,500", label: "ONE WAY" },
       { value: "29min", label: "KYOTO→OSAKA" },
       { value: "¥3,000", label: "BUDGET FLIGHT" },
     ],
@@ -439,8 +439,8 @@ export const CONNECTOR_PAGES: Guide[] = [
             type: "table",
             headers: ["Option", "Time", "Cost", "Best For"],
             rows: [
-              ["Shinkansen (Nozomi)", "2h30m", "¥14,720", "Speed, comfort, no luggage hassle"],
-              ["Shinkansen (Hikari)", "2h55m", "¥14,720", "JR Pass holders"],
+              ["Shinkansen (Nozomi)", "2h30m", "¥14,500", "Speed, comfort, no luggage hassle"],
+              ["Shinkansen (Hikari)", "2h55m", "¥14,500", "JR Pass holders"],
               ["Budget flight (Peach, Jetstar)", "1h15m + 2h transit", "¥3,000–8,000", "Budget travelers booking 3+ weeks ahead"],
               ["Highway bus", "8–9 hours", "¥3,000–6,000", "Budget travelers with time, overnight option"],
             ],
@@ -466,7 +466,7 @@ export const CONNECTOR_PAGES: Guide[] = [
             items: [
               { text: "Nozomi: 2h30m to Shin-Osaka Station. Fastest, most frequent (3–6/hour).", checked: true },
               { text: "Same booking process: ticket counter, machine, or SmartEX app", checked: true },
-              { text: "Shin-Osaka is NOT central Osaka — take the Midosuji Line (subway, 6 min) to Namba or Umeda", checked: true },
+              { text: "Shin-Osaka is NOT central Osaka — Take the Midosuji Line subway from Shin-Osaka to Umeda (6 min) or Namba (16 min)", checked: true },
               { text: "JR Pass: covers Hikari but not Nozomi (same rule as Tokyo-Kyoto)", checked: true },
             ],
           },
@@ -484,7 +484,7 @@ export const CONNECTOR_PAGES: Guide[] = [
         content: [
           {
             type: "prose",
-            text: "Peach Aviation and Jetstar Japan fly Tokyo (Narita or Haneda Terminal 3) to Kansai Airport (KIX).\n\n**The math:**\n\nFlight: ¥3,000–8,000 if booked 3+ weeks ahead\nNarita access from central Tokyo: ¥1,270–3,250, 60–90 min\nKIX to central Osaka: ¥1,500 (Nankai Rapi:t), 40 min\nTotal door-to-door: 4–5 hours\nTotal cost: ¥5,770–12,500\n\nCompare: Shinkansen is ¥14,720 and 2.5 hours city-center to city-center. The flight only wins on price if you booked cheap and early. It never wins on time.",
+            text: "Peach Aviation and Jetstar Japan fly Tokyo (Narita or Haneda Terminal 3) to Kansai Airport (KIX).\n\n**The math:**\n\nFlight: ¥3,000–8,000 if booked 3+ weeks ahead\nNarita access from central Tokyo: ¥1,270–3,250, 60–90 min\nKIX to central Osaka: ¥1,500 (Nankai Rapi:t), 34–40 min\nTotal door-to-door: 4–5 hours\nTotal cost: ¥5,770–12,500\n\nCompare: Shinkansen is ¥14,500 and 2.5 hours city-center to city-center. The flight only wins on price if you booked cheap and early. It never wins on time.",
           },
           {
             type: "tip",
@@ -505,7 +505,7 @@ export const CONNECTOR_PAGES: Guide[] = [
           {
             type: "checklist",
             items: [
-              { text: "Tokyo → Kyoto (2h14m shinkansen)", checked: true },
+              { text: "Tokyo → Kyoto (about 2h15m shinkansen)", checked: true },
               { text: "Spend 2–4 days in Kyoto", checked: true },
               { text: "Kyoto → Osaka (29 min JR, ¥580)", checked: true },
               { text: "Spend 2–3 days in Osaka", checked: true },
@@ -704,12 +704,12 @@ export const CONNECTOR_PAGES: Guide[] = [
               { title: "Day 7 — Higashiyama", desc: "Kiyomizu-dera Temple (iconic cliff terrace), Ninenzaka and Sannenzaka lanes (photogenic stone steps), Gion evening walk" },
               { title: "Day 8 — Arashiyama", desc: "Bamboo grove (go at 7 AM), Tenryu-ji Temple garden, monkey park (great views), tofu lunch at Sagano" },
               { title: "Day 9 — Northern Kyoto", desc: "Kinkaku-ji (Golden Pavilion), Ryoan-ji (zen rock garden), Daitoku-ji (sub-temples with tea). Nishiki Market for dinner." },
-              { title: "Day 10 — Nara Day Trip", desc: "Todai-ji Temple (world's largest wooden building), friendly deer park (1,200 free-roaming deer), Kasuga Taisha shrine. 45 min from Kyoto by JR." },
+              { title: "Day 10 — Nara Day Trip", desc: "Todai-ji Temple (one of the world's largest wooden buildings), friendly deer park (over 1,400 free-roaming deer), Kasuga Taisha shrine. 45 min from Kyoto by JR." },
             ],
           },
           {
             type: "prose",
-            text: "**Key Kyoto tips:**\n\nTemples open early (8–9 AM) and close by 5 PM. Start early.\nRent a bicycle — Kyoto is flat and bike-friendly. Better than buses.\nBuses are the main transit (unlike Tokyo's trains). Get a bus day pass (¥700).\nKyoto is much smaller than Tokyo. 2–3 temples per day is plenty.",
+            text: "**Key Kyoto tips:**\n\nTemples open early (8–9 AM) and close by 5 PM. Start early.\nRent a bicycle — Kyoto is flat and bike-friendly. Better than buses.\nBuses are the main transit (unlike Tokyo's trains). Get a Subway & Bus 1-Day Pass (¥1,100).\nKyoto is much smaller than Tokyo. 2–3 temples per day is plenty.",
           },
         ],
       },
@@ -755,8 +755,8 @@ export const CONNECTOR_PAGES: Guide[] = [
             type: "table",
             headers: ["From", "Train", "Time", "Cost"],
             rows: [
-              ["Namba", "Nankai Rapi:t express", "40 min", "¥1,490"],
-              ["Osaka Station", "JR Haruka", "50 min", "¥1,210 (ICOCA discount)"],
+              ["Namba", "Nankai Rapi:t express", "34–40 min", "¥1,490"],
+              ["Osaka Station", "JR Haruka", "50 min", "¥1,800"],
             ],
           },
           {
@@ -908,8 +908,8 @@ export const CONNECTOR_PAGES: Guide[] = [
             rows: [
               ["Tokyo", "4–5", "Neon, food, pop culture, modern Japan", "Fly into Narita or Haneda"],
               ["Hakone (optional)", "1–2", "Hot springs, Mt. Fuji views, pirate ship, open-air museum", "Odakyu from Shinjuku, 90 min"],
-              ["Kyoto", "3–4", "2,000 temples, geisha, bamboo, tea ceremonies", "Shinkansen from Tokyo, 2h14m"],
-              ["Nara (day trip)", "1", "1,200 deer, world's largest wooden building", "JR from Kyoto, 45 min"],
+              ["Kyoto", "3–4", "2,000 temples and shrines, geisha, bamboo, tea ceremonies", "Shinkansen from Tokyo, about 2h15m"],
+              ["Nara (day trip)", "1", "over 1,400 deer, one of the world's largest wooden buildings", "JR from Kyoto, 45 min"],
               ["Osaka", "2–3", "Street food capital, nightlife, Osaka Castle", "JR from Kyoto, 29 min"],
             ],
           },
@@ -964,7 +964,7 @@ export const CONNECTOR_PAGES: Guide[] = [
         content: [
           {
             type: "prose",
-            text: "Nara is 45 minutes from Kyoto by JR train. It was Japan's first permanent capital (710 AD). The main draw: 1,200 wild deer roaming freely through the park and temples. They'll bow to you for crackers (shika senbei, ¥200).\n\n**Must-see:** Todai-ji Temple (the Great Buddha Hall — world's largest wooden building, contains a 15m bronze Buddha), Kasuga Taisha (thousands of stone and bronze lanterns), Nara Park (deer everywhere).\n\nBudget half a day. Go in the morning, return to Kyoto by early afternoon. This fits perfectly as Day 10 in the 14-day plan.",
+            text: "Nara is 45 minutes from Kyoto by JR train. It was Japan's first permanent capital (710 AD). The main draw: over 1,400 wild deer roaming freely through the park and temples. They'll bow to you for crackers (shika senbei, ¥200).\n\n**Must-see:** Todai-ji Temple (the Great Buddha Hall — one of the world's largest wooden buildings, contains a 15m bronze Buddha), Kasuga Taisha (thousands of stone and bronze lanterns), Nara Park (deer everywhere).\n\nBudget half a day. Go in the morning, return to Kyoto by early afternoon. This fits perfectly as Day 10 in the 14-day plan.",
           },
         ],
       },
@@ -979,12 +979,12 @@ export const CONNECTOR_PAGES: Guide[] = [
             headers: ["Leg", "Method", "Time", "Cost"],
             rows: [
               ["Airport → Tokyo", "N'EX or Skyliner", "60–90 min", "¥2,520–3,250"],
-              ["Tokyo → Hakone", "Odakyu Romance Car", "90 min", "¥2,500 (Freepass: ¥6,100)"],
+              ["Tokyo → Hakone", "Odakyu Romance Car", "90 min", "¥2,500 (Freepass: ¥7,100)"],
               ["Hakone → Kyoto", "Shinkansen from Odawara", "2 hrs", "¥11,000"],
-              ["OR Tokyo → Kyoto", "Shinkansen", "2h14m", "¥14,170"],
+              ["OR Tokyo → Kyoto", "Shinkansen", "about 2h15m", "¥14,170"],
               ["Kyoto → Nara", "JR Nara Line", "45 min", "¥720"],
               ["Kyoto → Osaka", "JR Special Rapid", "29 min", "¥580"],
-              ["Osaka → KIX", "Nankai Rapi:t", "40 min", "¥1,490"],
+              ["Osaka → KIX", "Nankai Rapi:t", "34–40 min", "¥1,490"],
             ],
           },
           {

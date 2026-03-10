@@ -50,7 +50,7 @@ export const DAYS_FULL: DayDataFull[] = [
         neighborhoodSlug: "harajuku-omotesando",
         neighborhoodName: "Harajuku",
         desc: "The forested shrine path from Harajuku Station feels like leaving the city entirely. Shrine grounds take 30\u201345 min. Then hit Takeshita Street for crepe shops, kawaii fashion, and Cat Street vintage stores.",
-        eat: "Harajuku Gyoza Lou (6-seat counter, incredible gyoza) or Afuri Ramen in Omotesando \u2014 their yuzu shio is a local icon.",
+        eat: "Harajuku Gyoza Lou (counter-and-table joint, incredible gyoza) or Afuri Ramen in Omotesando \u2014 their yuzu shio is a local icon.",
         transit: "Ginza Line to Omotesando \u00b7 25 min",
         warning: null,
       },
@@ -60,7 +60,7 @@ export const DAYS_FULL: DayDataFull[] = [
         neighborhoodSlug: "shibuya",
         neighborhoodName: "Shibuya",
         desc: "Cross the Scramble from street level first. Explore Center-Gai, Shibuya 109, and the Parco complex. Miyashita Park rooftop for a breather.",
-        eat: "Afternoon coffee at Fuglen (Norwegian-Japanese craft). Onigiri Bongo in nearby Tomigaya is a 15-min walk and worth every step.",
+        eat: "Afternoon coffee at Fuglen (Norwegian-Japanese craft). Onigiri Bongo near Otsuka Station (JR Yamanote Line, ~20 min by train) is a pilgrimage-worthy detour.",
         transit:
           "JR Yamanote, 1 stop \u00b7 3 min (or walk Cat Street, 15 min)",
         warning: null,
@@ -71,7 +71,7 @@ export const DAYS_FULL: DayDataFull[] = [
         desc: "Open-air rooftop at 230m. Mt. Fuji visible on clear days. Book 16:30\u201317:00 entry for golden hour. Budget 60\u201375 minutes.",
         eat: null,
         transit: null,
-        warning: "Book 1\u20132 weeks ahead for sunset slots. No walk-ins.",
+        warning: "Walk-ups available at \u00a52,500 but popular time slots sell out. Book online for \u00a52,200.",
       },
       {
         time: "19:00",
@@ -118,7 +118,7 @@ export const DAYS_FULL: DayDataFull[] = [
         neighborhoodSlug: "ginza-tsukiji",
         neighborhoodName: "Ginza & Tsukiji",
         desc: "400+ stalls and small restaurants. The famous inner wholesale market moved to Toyosu years ago \u2014 no tuna auctions here anymore. But the outer market is thriving. Go hungry.",
-        eat: "Must-try: tamago on a stick at Tsukiji Shouro, fresh uni cups, grilled scallops. Sit-down: Daiwa Sushi (shorter wait than Sushi Dai, equally good).",
+        eat: "Must-try: tamago on a stick at Tsukiji Shouro, fresh uni cups, grilled scallops. Sit-down: Daiwa Sushi at Toyosu Market (shorter wait than Sushi Dai, equally good \u2014 note: both are at Toyosu, not Tsukiji).",
         transit:
           "Yurikamome + walk, or taxi ~10 min / \u00a51,500. NOT walkable from Toyosu.",
         warning: null,
@@ -136,7 +136,7 @@ export const DAYS_FULL: DayDataFull[] = [
       {
         time: "17:30",
         place: "Tokyo Station \u2014 Evening",
-        desc: "Underground Ramen Street (8 curated shops in Yaesu basement). The illuminated red-brick Marunouchi facade is beautiful at night.",
+        desc: "Underground Ramen Street (10 curated shops in Yaesu basement). The illuminated red-brick Marunouchi facade is beautiful at night.",
         eat: "Rokurinsha for tsukemen or Soranoiro for veggie ramen options.",
         transit: "Tokyo Metro Ginza Line \u00b7 5 min",
         warning: null,
@@ -188,7 +188,7 @@ export const DAYS_FULL: DayDataFull[] = [
         neighborhoodSlug: "yanaka",
         neighborhoodName: "Yanaka",
         desc: "One of the few neighborhoods that survived WWII bombing. Narrow lanes, traditional wooden houses, cat statues everywhere, and Yanaka Ginza shopping street feels like 1960s Tokyo. The antidote to sensory overload.",
-        eat: "Menchi-katsu (fried meat croquettes) and melon-pan ice cream sandwiches from the street stalls. Kayaba Coffee (a 1938 building) for excellent drip.",
+        eat: "Menchi-katsu (fried meat croquettes) and melon-pan ice cream sandwiches from the street stalls. Kayaba Coffee (a 1916 building, serving coffee since 1938) for excellent drip.",
         transit: "JR to Nippori, 2 stops \u00b7 5 min",
         warning: null,
       },
@@ -249,7 +249,7 @@ export const DAYS_FULL: DayDataFull[] = [
         time: "17:30",
         place: "Metropolitan Govt Building \u2014 Free Sunset",
         desc: "North observation deck (45th floor, 202m), completely free, 360-degree views including Mt. Fuji on clear days. Go 30 minutes before sunset. South deck is less crowded if north has a queue.",
-        eat: "Tsunahachi for tempura (since 1923, \u00a52,000 sets). Then Golden Gai \u2014 200+ tiny bars, most seating 5\u20138 people. Look for bars with \u2018Tourists welcome\u2019 signs.",
+        eat: "Tsunahachi for tempura (since 1923, lunch sets from \u00a51,500). Then Golden Gai \u2014 200+ tiny bars, most seating 5\u20138 people. Look for bars with \u2018Tourists welcome\u2019 signs.",
         transit: "Walk from Shinjuku Gyoen \u00b7 15 min",
         warning: null,
       },
@@ -268,7 +268,7 @@ export const DAYS_FULL: DayDataFull[] = [
     highlight: "Great Buddha (Kotoku-in)",
     topFood: "Fresh shirasu-don (sardine bowls)",
     tagline:
-      "Ancient seaside capital with a 770-year-old bronze Buddha and ocean-cliff temples.",
+      "Ancient seaside capital with an over 770-year-old bronze Buddha and ocean-cliff temples.",
     localTip:
       "Don\u2019t try Great Buddha + Hase-dera + beach + Enoshima all in one day. Choose either a thorough Kamakura or a Kamakura morning + Enoshima afternoon.",
     stops: [
@@ -339,7 +339,7 @@ export const DAYS_FULL: DayDataFull[] = [
     tagline:
       "Gold-leafed UNESCO shrines in cryptomeria forests and a 97-meter waterfall.",
     localTip:
-      "Buy the Tobu \u2018All Nikko Pass\u2019 (\u00a54,780 from Asakusa) \u2014 covers round-trip express plus unlimited buses in Nikko. Saves money and hassle.",
+      "Buy the Tobu \u2018All Nikko Pass\u2019 (\u00a58,000 from Asakusa) \u2014 covers round-trip express plus unlimited buses in Nikko. Saves money and hassle.",
     stops: [
       {
         time: "07:30",
@@ -407,7 +407,7 @@ export const DAYS_FULL: DayDataFull[] = [
         time: "09:30",
         place: "Shimokitazawa \u2014 Vintage & Indie",
         desc: "Tokyo\u2019s answer to Brooklyn. Vintage clothing stores, independent theaters, tiny record shops, and excellent coffee. The redesigned station area (Bonus Track, Reload) has great indie shops and cafes. Budget 2\u20132.5 hours to browse.",
-        eat: "Bear Pond Espresso (legendary single-origin, tiny space, no-photos policy). Ballon d\u2019Essai for pastries. City Country City \u2014 a cafe above a used bookstore.",
+        eat: "Bear Pond Espresso (legendary single-origin, tiny space, no-photos policy). Ballon d\u2019Essai for pastries. City Country City \u2014 a vinyl record shop with a cafe.",
         transit:
           "Keio Inokashira or Odakyu from Shinjuku \u00b7 8 min",
         warning: null,
@@ -415,11 +415,11 @@ export const DAYS_FULL: DayDataFull[] = [
       {
         time: "12:30",
         place: "Kichijoji \u2014 Park & Local Life",
-        desc: "Walk through Inokashira Park \u2014 a leafy oasis with a pond, swan boats, and street musicians on weekends. The Ghibli Museum is nearby but requires separate lottery tickets booked months in advance.",
+        desc: "Walk through Inokashira Park \u2014 a leafy oasis with a pond, swan boats, and street musicians on weekends. The Ghibli Museum is nearby but requires separate timed-release tickets that sell out within minutes on the 10th of each month via Lawson Ticket.",
         eat: "Harmonika Yokocho \u2014 a tiny alley market with yakitori, fried chicken, and beer stalls. Mado Cafe in Inokashira Park is charming.",
         transit: "Keio Inokashira Line \u00b7 15 min direct",
         warning:
-          "Ghibli Museum requires lottery tickets purchased 2\u20133 months in advance through the Lawson ticket system. You CANNOT buy tickets at the door. No tickets? Enjoy the park and move on.",
+          "Ghibli Museum requires timed-release tickets that sell out within minutes on the 10th of each month via Lawson Ticket, purchased 1 month in advance. You CANNOT buy tickets at the door. No tickets? Enjoy the park and move on.",
       },
       {
         time: "15:00",
@@ -433,7 +433,7 @@ export const DAYS_FULL: DayDataFull[] = [
         time: "17:30",
         place: "Final Evening \u2014 Your Choice",
         desc: "Return to any neighborhood you loved for a farewell dinner. Revisit Golden Gai or Omoide Yokocho for one last round. Or try somewhere new \u2014 Ebisu for upscale izakayas, Roppongi for late-night energy, or quiet Yanaka for a peaceful goodbye to the city.",
-        eat: "Realistic splurge: Uobei in Shibuya \u2014 conveyor-belt sushi starting at \u00a5100/plate. Fast, fun, delicious.",
+        eat: "Realistic splurge: Uobei in Shibuya \u2014 conveyor-belt sushi starting at \u00a5110/plate. Fast, fun, delicious.",
         transit: null,
         warning: null,
       },

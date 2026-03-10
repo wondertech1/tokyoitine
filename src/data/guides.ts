@@ -131,7 +131,7 @@ export const GUIDES: Guide[] = [
                 priceRange: "\u00a5",
                 priceDetail: "\u00a5400\u2013\u00a5800",
                 mustOrder:
-                  "Thick-cut toast with butter \u2014 Pelican has baked bread here since 1942",
+                  "Thick-cut toast with butter \u2014 Pelican Bakery has baked bread here since 1942; the cafe opened in 2017",
                 itineraryDay: "Day 2",
                 warning:
                   "Opens at 8:00. Small space, expect a 10\u201320 min wait on weekends.",
@@ -264,7 +264,7 @@ export const GUIDES: Guide[] = [
                   "Sake (salmon) and mentaiko (spicy cod roe) \u2014 hand-formed right in front of you",
                 itineraryDay: "Day 1",
                 warning:
-                  "Technically in \u014Ctsuka but worth the trip. Queue is always long. Go at odd hours.",
+                  "NOT in Shibuya \u2014 located near \u014Ctsuka Station (Toshima ward), a 15-min ride from Shibuya. Queue is always long. Go at odd hours.",
               },
               {
                 name: "Ichiran Shibuya",
@@ -285,7 +285,7 @@ export const GUIDES: Guide[] = [
                 priceRange: "\u00a5",
                 priceDetail: "\u00a5600\u2013\u00a51,200",
                 mustOrder:
-                  "Order via tablet, sushi arrives on a high-speed conveyor \u2014 \u00a5100\u2013\u00a5180 per plate",
+                  "Order via tablet, sushi arrives on a high-speed conveyor \u2014 \u00a5110\u2013\u00a5180 per plate",
                 itineraryDay: "Day 1",
                 warning:
                   "Not high-end sushi, but absurd fun and absurdly cheap. Perfect for a quick lunch.",
@@ -331,7 +331,7 @@ export const GUIDES: Guide[] = [
                 neighborhood: "Shinjuku",
                 cuisine: "Sardine / Kaiseki",
                 priceRange: "\u00a5\u00a5",
-                priceDetail: "\u00a5800\u2013\u00a51,500 (lunch) / \u00a58,000+ (dinner)",
+                priceDetail: "\u00a51,100\u2013\u00a51,500 (lunch) / \u00a58,000+ (dinner)",
                 mustOrder:
                   "Lunch iwashi (sardine) set \u2014 Michelin-starred dinner quality at a fraction of the price",
                 itineraryDay: "Day 7",
@@ -387,15 +387,15 @@ export const GUIDES: Guide[] = [
               },
               {
                 name: "Daiwa Sushi",
-                neighborhood: "Ginza / Tsukiji",
+                neighborhood: "Toyosu",
                 cuisine: "Sushi",
                 priceRange: "\u00a5\u00a5\u00a5",
                 priceDetail: "\u00a54,000\u2013\u00a55,000",
                 mustOrder:
-                  "Omakase set at the counter \u2014 the tuna is sourced from the outer market\u2019s best vendors",
+                  "Omakase set at the counter \u2014 the tuna is sourced from Toyosu Market\u2019s best vendors",
                 itineraryDay: "Day 4",
                 warning:
-                  "Moved from inner to outer market. Queue starts before 5:00 AM. Go at 10:00 instead.",
+                  "Moved to Toyosu Market in 2018. Queue starts before 5:00 AM. Go at 10:00 instead.",
               },
               {
                 name: "Ginza Steak Aoki",
@@ -600,8 +600,8 @@ export const GUIDES: Guide[] = [
                   "Multiple locations. Shinjuku branch is easiest to find.",
               },
               {
-                name: "Tsuta (Sugamo)",
-                neighborhood: "Sugamo",
+                name: "Tsuta (Yoyogi-Uehara)",
+                neighborhood: "Yoyogi-Uehara",
                 cuisine: "Ramen",
                 priceRange: "\u00a5\u00a5",
                 priceDetail: "\u00a51,200\u2013\u00a51,800",
@@ -609,7 +609,7 @@ export const GUIDES: Guide[] = [
                   "Shoyu soba with truffle oil \u2014 the world\u2019s first Michelin-starred ramen shop",
                 itineraryDay: "Day 7",
                 warning:
-                  "No longer needs a lottery ticket to enter. Still draws a queue. Go at 14:00.",
+                  "The original Sugamo location closed; the shop relocated to Yoyogi-Uehara. Still draws a queue. Go at 14:00.",
               },
             ],
           },
@@ -726,7 +726,7 @@ export const GUIDES: Guide[] = [
               [
                 "Tsuta",
                 "Shoyu / Truffle",
-                "Sugamo",
+                "Yoyogi-Uehara",
                 "\u00a51,200",
                 "World\u2019s first Michelin-starred ramen. Truffle oil elevates the shoyu base.",
               ],
@@ -734,7 +734,7 @@ export const GUIDES: Guide[] = [
           },
           {
             type: "warning",
-            text: "Ramen etiquette: slurp loudly (it cools the noodles and is considered polite), eat fast (ramen is meant to be consumed in under 10 minutes before noodles absorb all the broth), and do not ask for modifications at traditional shops. The chef\u2019s recipe is the recipe.",
+            text: "Ramen etiquette: slurp loudly (it cools the noodles and is considered polite), eat fast (ramen is meant to be consumed in under 10 minutes before noodles absorb all the broth), and most shops let you choose noodle firmness and broth richness, but avoid requesting off-menu changes.",
           },
         ],
       },
@@ -742,11 +742,11 @@ export const GUIDES: Guide[] = [
       {
         id: "sushi-guide",
         label: "Sushi Guide",
-        title: "Sushi: From \u00a5100 to \u00a530,000",
+        title: "Sushi: From \u00a5110 to \u00a558,000",
         content: [
           {
             type: "prose",
-            text: "Tokyo\u2019s sushi spectrum is absurd. You can pay \u00a5100 per plate at a conveyor belt joint and still eat better than most sushi outside Japan, or you can drop \u00a530,000 on an omakase where the chef has been perfecting his rice for 40 years. Both are valid experiences.\n\nThe key difference is the rice. At the high end, sushi chefs spend years mastering the vinegar, temperature, and pressure of every grain. At the low end, a machine forms it. The fish quality in Tokyo is universally high because of the supply chain \u2014 even \u201Ccheap\u201D sushi here uses fish that would be premium elsewhere.\n\nDon\u2019t skip the tamago (egg). It\u2019s the dish that reveals a chef\u2019s skill most clearly.",
+            text: "Tokyo\u2019s sushi spectrum is absurd. You can pay \u00a5110 per plate at a conveyor belt joint and still eat better than most sushi outside Japan, or you can drop \u00a558,000 on an omakase where the chef has been perfecting his rice for 40 years. Both are valid experiences.\n\nThe key difference is the rice. At the high end, sushi chefs spend years mastering the vinegar, temperature, and pressure of every grain. At the low end, a machine forms it. The fish quality in Tokyo is universally high because of the supply chain \u2014 even \u201Ccheap\u201D sushi here uses fish that would be premium elsewhere.\n\nDon\u2019t skip the tamago (egg). It\u2019s the dish that reveals a chef\u2019s skill most clearly.",
           },
           {
             type: "table",
@@ -759,7 +759,7 @@ export const GUIDES: Guide[] = [
             rows: [
               [
                 "Conveyor Belt",
-                "\u00a5100\u2013\u00a5180/plate",
+                "\u00a5110\u2013\u00a5180/plate",
                 "Uobei (Shibuya)",
                 "Order by tablet, sushi arrives by high-speed lane. Fun, fast, cheap.",
               ],
@@ -772,18 +772,18 @@ export const GUIDES: Guide[] = [
               [
                 "Market Sushi",
                 "\u00a53,000\u2013\u00a55,000",
-                "Daiwa Sushi (Tsukiji)",
-                "Counter seats, morning-fresh fish, the classic Tsukiji experience.",
+                "Daiwa Sushi (Toyosu)",
+                "Counter seats, morning-fresh fish. Moved to Toyosu Market in 2018.",
               ],
               [
                 "Mid-Range Omakase",
-                "\u00a58,000\u2013\u00a515,000",
+                "\u00a55,000\u2013\u00a515,000",
                 "Sushi Dai (Toyosu)",
                 "Chef\u2019s choice, 10\u201312 pieces plus extras. Book ahead.",
               ],
               [
                 "High-End Omakase",
-                "\u00a520,000\u2013\u00a530,000+",
+                "\u00a520,000\u2013\u00a558,000+",
                 "Sukiyabashi Jiro (Ginza)",
                 "The pinnacle. 20 pieces in 30 minutes. Reservations months out via concierge.",
               ],
@@ -862,7 +862,7 @@ export const GUIDES: Guide[] = [
               [
                 "Sushi Dai (Toyosu)",
                 "Omakase Sushi",
-                "\u00a58,000\u2013\u00a512,000",
+                "\u00a55,000\u2013\u00a56,600",
                 "The omakase that made Toyosu famous. Seasonal fish, perfect rice, intimate counter.",
                 "Queue at 5:00 AM or book via hotel concierge",
               ],
@@ -870,7 +870,7 @@ export const GUIDES: Guide[] = [
                 "Nakajima (Dinner)",
                 "Kaiseki",
                 "\u00a58,000\u2013\u00a515,000",
-                "Sardine kaiseki from a Michelin-starred kitchen. The gap between lunch (\u00a5800) and dinner price shows the range.",
+                "Sardine kaiseki from a Michelin-starred kitchen. The gap between lunch (\u00a51,100) and dinner price shows the range.",
                 "Tabelog reservation. Book 1 week ahead.",
               ],
               [
@@ -883,7 +883,7 @@ export const GUIDES: Guide[] = [
               [
                 "Sukiyabashi Jiro (Ginza)",
                 "Omakase Sushi",
-                "\u00a530,000+",
+                "\u00a558,000+",
                 "The Jiro Dreams of Sushi experience. 20 pieces in 30 minutes. A once-in-a-lifetime meal.",
                 "Hotel concierge only. 1\u20133 months ahead.",
               ],
@@ -891,7 +891,7 @@ export const GUIDES: Guide[] = [
           },
           {
             type: "prose",
-            text: "Splurging in Tokyo is different from splurging in Paris or New York. There\u2019s no velvet rope energy. The most expensive sushi counter in Ginza might be a 6-seat room in a basement with no sign. The value is in the craft, the ingredients, and the decades of mastery \u2014 not the d\u00e9cor.\n\nOne tip: many high-end restaurants offer dramatically cheaper lunch sets. Nakajima\u2019s \u00a5800 lunch is from the same Michelin-starred kitchen that charges \u00a58,000+ at dinner. Always check if your splurge restaurant has a lunch option first.",
+            text: "Splurging in Tokyo is different from splurging in Paris or New York. There\u2019s no velvet rope energy. The most expensive sushi counter in Ginza might be a 6-seat room in a basement with no sign. The value is in the craft, the ingredients, and the decades of mastery \u2014 not the d\u00e9cor.\n\nOne tip: many high-end restaurants offer dramatically cheaper lunch sets. Nakajima\u2019s \u00a51,100 lunch is from the same Michelin-starred kitchen that charges \u00a58,000+ at dinner. Always check if your splurge restaurant has a lunch option first.",
           },
         ],
       },
@@ -992,7 +992,7 @@ export const GUIDES: Guide[] = [
         content: [
           {
             type: "prose",
-            text: "Forget paper tickets. Forget figuring out fare zones. Get a Suica card and tap through every gate in the city.\n\nSuica is a rechargeable IC card that works on virtually every train, bus, and metro line in Tokyo (and most of Japan). You tap in, tap out, and the correct fare is deducted automatically. It also works at konbini, vending machines, coin lockers, and some restaurants.\n\nAs of 2024, physical Suica cards are hard to get due to a chip shortage. The move is to add a **Mobile Suica** to your iPhone or Apple Watch via the Wallet app. Android users can use Google Pay. You can charge it with a foreign credit card.\n\nIf you absolutely need a physical card, **Welcome Suica** cards (no deposit, 28-day expiry) are available at Narita and Haneda airports. But digital is better in every way.",
+            text: "Forget paper tickets. Forget figuring out fare zones. Get a Suica card and tap through every gate in the city.\n\nSuica is a rechargeable IC card that works on virtually every train, bus, and metro line in Tokyo (and most of Japan). You tap in, tap out, and the correct fare is deducted automatically. It also works at konbini, vending machines, coin lockers, and some restaurants.\n\nAs of 2024, physical Suica card sales resumed in March 2025, though Apple Wallet Suica remains the easiest option. Add a **Mobile Suica** to your iPhone or Apple Watch via the Wallet app. Android users can use Google Pay. You can charge it with a foreign credit card.\n\nIf you absolutely need a physical card, **Welcome Suica** cards (no deposit, 28-day expiry) are available at Narita and Haneda airports. But digital is better in every way.",
           },
           {
             type: "checklist",
@@ -1070,7 +1070,7 @@ export const GUIDES: Guide[] = [
               [
                 "Chiyoda Line",
                 "Green (darker)",
-                "Omotesando, Meiji-jingu, Tsukiji, Ueno",
+                "Meiji-jingumae, Omotesando, Otemachi, Sendagi, Nezu",
                 "Meiji Shrine access and connects to Odakyu line for Hakone.",
               ],
             ],
@@ -1174,7 +1174,7 @@ export const GUIDES: Guide[] = [
                 "Narita \u2192 Tokyo",
                 "Skyliner",
                 "41 min",
-                "\u00a52,520",
+                "\u00a52,580",
                 "Fastest option. Goes to Ueno/Nippori. Transfer to Yamanote from there.",
               ],
               [
@@ -1214,7 +1214,7 @@ export const GUIDES: Guide[] = [
         content: [
           {
             type: "prose",
-            text: "Shinjuku Station serves 3.5 million passengers per day. It holds the Guinness record for the world\u2019s busiest station. It has over 200 exits and connects 12 different rail lines across 3 different operators.\n\nYou will get lost. Everyone gets lost. The key is to not panic and follow these survival rules.",
+            text: "Shinjuku Station serves 2.7 million passengers per day. It holds the Guinness record for the world\u2019s busiest station. It has over 200 exits and connects 12 different rail lines across 5 different operators.\n\nYou will get lost. Everyone gets lost. The key is to not panic and follow these survival rules.",
           },
           {
             type: "cards",
@@ -1376,7 +1376,7 @@ export const GUIDES: Guide[] = [
         content: [
           {
             type: "prose",
-            text: "**Food** is where Tokyo punches way above its weight class. A bowl of ramen that would cost $18 in New York is \u00a5900 here. A lunch set at a Michelin-starred restaurant is \u00a5800\u2013\u00a51,500. Konbini onigiri are \u00a5120\u2013\u00a5200. You can eat 3 meals a day for \u00a52,000 without trying hard, or blow \u00a520,000 on a single omakase. Both are valid.\n\n**Transport** is cheap if you use trains. A typical day of sightseeing uses \u00a5800\u2013\u00a51,500 on Suica. The Yamanote line (\u00a5150\u2013\u00a5200 per ride) connects most neighborhoods. Only take taxis if you\u2019re in a group of 3\u20134 late at night after trains stop (around midnight).\n\n**Activities** range from free to expensive. Meiji Shrine, Senso-ji, Ueno Park, Yanaka, and most neighborhood walking is completely free. Paid attractions like teamLab Borderless (\u00a53,800), Shibuya Sky (\u00a52,000), and Tokyo Skytree (\u00a53,100) add up if you do several, but you don\u2019t need to do all of them. Pick 2\u20133 paid attractions for the whole trip.\n\n**Accommodation** is the biggest variable. Capsule hotels (\u00a53,000\u2013\u00a55,000), business hotels (\u00a58,000\u2013\u00a512,000), and boutique/luxury (\u00a515,000\u2013\u00a550,000). Location matters more than class \u2014 a business hotel in Shinjuku beats a luxury hotel in a suburb.",
+            text: "**Food** is where Tokyo punches way above its weight class. A bowl of ramen that would cost $18 in New York is \u00a5900 here. A lunch set at a Michelin-starred restaurant is \u00a51,100\u2013\u00a51,500. Konbini onigiri are \u00a5120\u2013\u00a5200. You can eat 3 meals a day for \u00a52,000 without trying hard, or blow \u00a520,000 on a single omakase. Both are valid.\n\n**Transport** is cheap if you use trains. A typical day of sightseeing uses \u00a5800\u2013\u00a51,500 on Suica. The Yamanote line (\u00a5150\u2013\u00a5200 per ride) connects most neighborhoods. Only take taxis if you\u2019re in a group of 3\u20134 late at night after trains stop (around midnight).\n\n**Activities** range from free to expensive. Meiji Shrine, Senso-ji, Ueno Park, Yanaka, and most neighborhood walking is completely free. Paid attractions like teamLab Borderless (\u00a54,200), Shibuya Sky (\u00a52,200), and Tokyo Skytree (\u00a53,100) add up if you do several, but you don\u2019t need to do all of them. Pick 2\u20133 paid attractions for the whole trip.\n\n**Accommodation** is the biggest variable. Capsule hotels (\u00a53,000\u2013\u00a55,000), business hotels (\u00a58,000\u2013\u00a512,000), and boutique/luxury (\u00a515,000\u2013\u00a550,000). Location matters more than class \u2014 a business hotel in Shinjuku beats a luxury hotel in a suburb.",
           },
         ],
       },
@@ -1395,11 +1395,11 @@ export const GUIDES: Guide[] = [
               },
               {
                 title: "Lunch Sets Over Dinner",
-                desc: "The same restaurant that charges \u00a55,000 at dinner might serve an \u00a5800 lunch set with the same kitchen. Teishoku (set meals) at lunch are Tokyo\u2019s best-kept budget secret.",
+                desc: "The same restaurant that charges \u00a55,000 at dinner might serve an \u00a51,100 lunch set with the same kitchen. Teishoku (set meals) at lunch are Tokyo\u2019s best-kept budget secret.",
               },
               {
                 title: "Free Viewpoints",
-                desc: "Skip Tokyo Skytree (\u00a53,100). The Tokyo Metropolitan Government Building in Shinjuku has a free observation deck at 202 meters with better views and zero lines. Open until 23:00.",
+                desc: "Skip Tokyo Skytree (\u00a53,100). The Tokyo Metropolitan Government Building in Shinjuku has a free observation deck at 202 meters with better views and zero lines. Open until 22:00 (last entry 21:30).",
               },
               {
                 title: "Tax-Free Shopping",
@@ -1513,7 +1513,7 @@ export const GUIDES: Guide[] = [
                 checked: false,
               },
               {
-                text: "Check Ghibli Museum ticket availability \u2014 lottery system, must book 1+ month ahead",
+                text: "Check Ghibli Museum ticket availability \u2014 timed-release system through Lawson Ticket (tickets sell out within minutes on the 10th of each month), must book 1+ month ahead",
                 checked: false,
               },
               {
@@ -1731,21 +1731,21 @@ export const GUIDES: Guide[] = [
             items: [
               {
                 title: "Ghibli Museum (Mitaka) \u2014 2\u20133 months ahead",
-                desc: "Lottery system through Lawson Ticket (l-tike.com). Tickets go on sale on the 10th of each month for the following month. \u00a51,000. You cannot buy at the door \u2014 no exceptions. Enter the lottery the moment it opens. This is genuinely hard to get. If you don\u2019t win, don\u2019t waste a morning going there. Day 7 itinerary (Kichijoji area).",
+                desc: "Timed-release system through Lawson Ticket (l-tike.com). Tickets go on sale on the 10th of each month for the following month and sell out within minutes. \u00a51,000. You cannot buy at the door \u2014 no exceptions. Be ready the moment tickets drop. This is genuinely hard to get. If you don\u2019t get tickets, don\u2019t waste a morning going there. Day 7 itinerary (Kichijoji area).",
               },
               {
                 title: "teamLab Planets (Toyosu) \u2014 2\u20134 weeks ahead",
-                desc: "Book at teamlab.art \u2014 select date and time slot. \u00a53,800. First morning slot (9:00 or 10:00 AM) has the shortest crowds inside. Wear pants you can roll above the knee \u2014 you wade through water. The entire experience is barefoot. Day 2 itinerary.",
+                desc: "Book at teamlab.art \u2014 select date and time slot. \u00a54,200. First morning slot (9:00 or 10:00 AM) has the shortest crowds inside. Wear pants you can roll above the knee \u2014 you wade through water. The entire experience is barefoot. Day 2 itinerary.",
               },
               {
                 title: "Shibuya Sky \u2014 1\u20132 weeks ahead",
-                desc: "Book at shibuya-sky.tokyo \u2014 select date and time slot. \u00a52,000. Book the 16:30 or 17:00 slot (depending on season) for sunset. The open-air rooftop at 230m is the highlight \u2014 overcast days are still good but you won\u2019t see Mt. Fuji. Day 1 itinerary.",
+                desc: "Book at shibuya-sky.tokyo \u2014 select date and time slot. \u00a52,200. Book the 16:30 or 17:00 slot (depending on season) for sunset. The open-air rooftop at 230m is the highlight \u2014 overcast days are still good but you won\u2019t see Mt. Fuji. Day 1 itinerary.",
               },
             ],
           },
           {
             type: "warning",
-            text: "The Ghibli Museum lottery is real. Many tourists assume they can figure it out on arrival. They can\u2019t. Enter the lottery exactly on the 10th of the month, 2\u20133 months before your trip, or accept you\u2019re not going.",
+            text: "The Ghibli Museum timed-release system through Lawson Ticket is real. Many tourists assume they can figure it out on arrival. They can\u2019t. Tickets sell out within minutes on the 10th of each month, 2\u20133 months before your trip, or accept you\u2019re not going.",
           },
           {
             type: "warning",
@@ -1771,7 +1771,7 @@ export const GUIDES: Guide[] = [
               },
               {
                 title: "Robot Restaurant (Shinjuku)",
-                desc: "If it\u2019s reopened (check current status), book 1 week out. It\u2019s absurd, loud, and strangely fun. Not a restaurant \u2014 more of a neon fever dream with robots. \u00a56,000\u20138,000.",
+                desc: "Permanently closed during COVID. A successor show (Samurai Restaurant) operates separately. Not a restaurant \u2014 more of a neon fever dream with robots.",
               },
               {
                 title: "Zauo Fishing Restaurant",
@@ -1779,7 +1779,7 @@ export const GUIDES: Guide[] = [
               },
               {
                 title: "teamLab Borderless",
-                desc: "If it\u2019s relocated and open (check teamlab.art for current venue), same booking pattern as Planets. Different experience \u2014 more free-roaming, less water. Book 2\u20134 weeks out.",
+                desc: "teamLab Borderless at Azabudai Hills. Open since February 2024. Same booking pattern as Planets. Different experience \u2014 more free-roaming, less water. Book 2\u20134 weeks out.",
               },
             ],
           },
@@ -1803,7 +1803,7 @@ export const GUIDES: Guide[] = [
               },
               {
                 title: "Meiji Jingu Shrine",
-                desc: "Always open, always free. Enter from the Harajuku side.",
+                desc: "Free admission. Opens at sunrise, closes at sunset (hours vary seasonally). Enter from the Harajuku side.",
               },
               {
                 title: "Imperial Palace East Gardens",
@@ -1836,7 +1836,7 @@ export const GUIDES: Guide[] = [
         content: [
           {
             type: "prose",
-            text: "For 95% of restaurants in this guide: no. Walk in, queue if there\u2019s a line, eat. Japanese restaurant culture is very queue-friendly \u2014 a 20-minute wait is normal and expected at popular spots.\n\nExceptions where you SHOULD reserve:\n\n\u2022 Any omakase sushi counter (\u00a515,000+) \u2014 book 1\u20133 months ahead through your hotel concierge or Tabelog\n\u2022 Michelin-starred restaurants \u2014 months ahead\n\u2022 Specific popular spots: Tapas Molecular Bar (Tokyo Station), Narisawa, Den\n\nFor everything else in this guide \u2014 Fuunji, Afuri, Daiwa Sushi, Gyoza Lou \u2014 just show up. Queue culture is part of the experience.",
+            text: "For 95% of restaurants in this guide: no. Walk in, queue if there\u2019s a line, eat. Japanese restaurant culture is very queue-friendly \u2014 a 20-minute wait is normal and expected at popular spots.\n\nExceptions where you SHOULD reserve:\n\n\u2022 Any omakase sushi counter (\u00a515,000+) \u2014 book 1\u20133 months ahead through your hotel concierge or Tabelog\n\u2022 Michelin-starred restaurants \u2014 months ahead\n\u2022 Specific popular spots: Tapas Molecular Bar (Mandarin Oriental, Nihonbashi \u2014 10 min walk from Tokyo Station), Narisawa, Den\n\nFor everything else in this guide \u2014 Fuunji, Afuri, Daiwa Sushi, Gyoza Lou \u2014 just show up. Queue culture is part of the experience.",
           },
           {
             type: "tip",
@@ -1855,7 +1855,7 @@ export const GUIDES: Guide[] = [
             rows: [
               [
                 "3 months before",
-                "Enter Ghibli Museum lottery (on the 10th of the month)",
+                "Book Ghibli Museum tickets via Lawson Ticket (on the 10th of the month)",
               ],
               [
                 "2 months before",
@@ -2079,7 +2079,7 @@ export const GUIDES: Guide[] = [
         content: [
           {
             type: "prose",
-            text: "June is tsuyu (rainy season) \u2014 expect 15+ days of rain. July and August are genuinely brutal: 30\u201335\u00b0C with oppressive humidity. You will sweat through your clothes. But summer has its own magic.",
+            text: "June is tsuyu (rainy season) \u2014 expect 12\u201314 days of rain. July and August are genuinely brutal: 30\u201335\u00b0C with oppressive humidity. You will sweat through your clothes. But summer has its own magic.",
           },
           {
             type: "cards",
@@ -2206,7 +2206,7 @@ export const GUIDES: Guide[] = [
                 "Traditional performing arts at the shrine. Free to watch.",
               ],
               [
-                "May 3rd weekend",
+                "Mid-May weekend (closest to May 15)",
                 "Kanda Matsuri (odd years)",
                 "One of Tokyo\u2019s three great festivals. Portable shrines through Kanda.",
               ],
@@ -2312,14 +2312,14 @@ export const GUIDES: Guide[] = [
               [
                 "Nikko",
                 "2 hrs (Tobu)",
-                "\u00a54,780 (All Nikko Pass)",
+                "\u00a58,000 (All Nikko Pass)",
                 "UNESCO shrines, waterfalls, forests",
                 "\u2605\u2605\u2605\u2605\u2605",
               ],
               [
                 "Hakone",
                 "90 min (Odakyu)",
-                "\u00a56,100 (Freepass)",
+                "\u00a57,100 (Freepass)",
                 "Hot springs, Mt. Fuji views, pirate ship",
                 "\u2605\u2605\u2605\u2605",
               ],
@@ -2333,7 +2333,7 @@ export const GUIDES: Guide[] = [
               [
                 "Kawaguchiko",
                 "2 hrs (bus)",
-                "\u00a53,800",
+                "\u00a54,400",
                 "Mt. Fuji up close, lake views",
                 "\u2605\u2605\u2605\u2605",
               ],
@@ -2352,7 +2352,7 @@ export const GUIDES: Guide[] = [
         content: [
           {
             type: "prose",
-            text: "Kamakura was Japan\u2019s political capital in the 13th century. Today it\u2019s a compact seaside town with ancient temples, a 770-year-old giant Buddha, and a coastline you can walk. It\u2019s the most popular day trip from Tokyo for good reason \u2014 the combination of history, nature, and ocean is unmatched.",
+            text: "Kamakura was Japan\u2019s political capital in the 13th century. Today it\u2019s a compact seaside town with ancient temples, an over 770-year-old giant Buddha, and a coastline you can walk. It\u2019s the most popular day trip from Tokyo for good reason \u2014 the combination of history, nature, and ocean is unmatched.",
           },
           {
             type: "cards",
@@ -2395,7 +2395,7 @@ export const GUIDES: Guide[] = [
             items: [
               {
                 title: "Getting there",
-                desc: "Tobu Limited Express from Asakusa, ~2 hours. NOT covered by JR Pass. Buy the All Nikko Pass (\u00a54,780) \u2014 covers round trip + unlimited local buses.",
+                desc: "Tobu Limited Express from Asakusa, ~2 hours. NOT covered by JR Pass. Buy the All Nikko Pass (\u00a58,000) \u2014 covers round trip + unlimited local buses.",
               },
               {
                 title: "Must-see",
@@ -2431,7 +2431,7 @@ export const GUIDES: Guide[] = [
             items: [
               {
                 title: "Getting there",
-                desc: "Odakyu Romance Car from Shinjuku, ~90 min. NOT covered by JR Pass. Buy the Hakone Freepass (\u00a56,100) \u2014 2-day pass covering all transport in Hakone + round trip from Shinjuku.",
+                desc: "Odakyu Romance Car from Shinjuku, ~90 min. NOT covered by JR Pass. Buy the Hakone Freepass (\u00a57,100) \u2014 2-day pass covering all transport in Hakone + round trip from Shinjuku.",
               },
               {
                 title: "Must-see",
@@ -2439,7 +2439,7 @@ export const GUIDES: Guide[] = [
               },
               {
                 title: "Must-eat",
-                desc: "Black eggs (kuro-tamago) at Owakudani \u2014 boiled in volcanic sulfur springs, shells turn black. Legend says each adds 7 years to your life. \u00a5500 for 5.",
+                desc: "Black eggs (kuro-tamago) at Owakudani \u2014 boiled in volcanic sulfur springs, shells turn black. Legend says each adds 7 years to your life. \u00a5500 for 4.",
               },
               {
                 title: "Pro tip",
@@ -2503,7 +2503,7 @@ export const GUIDES: Guide[] = [
             items: [
               {
                 title: "Getting there",
-                desc: "Highway bus from Shinjuku Expressway Bus Terminal, ~2 hours. Or Fuji Excursion train (JR + Fujikyu, ~2 hours, limited daily departures). ~\u00a53,800 round trip (bus). Train ~\u00a54,500.",
+                desc: "Highway bus from Shinjuku Expressway Bus Terminal, ~2 hours. Or Fuji Excursion train (JR + Fujikyu, ~2 hours, limited daily departures). ~\u00a54,400 round trip (bus). Train ~\u00a54,500.",
               },
               {
                 title: "Must-see",
@@ -2623,7 +2623,7 @@ export const GUIDES: Guide[] = [
               },
               {
                 title: "School Age (5\u201312)",
-                desc: "Best: teamLab Planets (barefoot water walking!), Akihabara arcades + gachapon, Cup Noodles Museum (make your own), Kappabashi plastic food workshop, Kamakura Great Buddha (kids love going inside for \u00a550), Ghibli Museum (if you got lottery tickets), Odaiba Gundam statue. Skip: Ginza (boring for kids), long museum visits (pick one, 60 min max). Tip: Let kids collect gachapon (capsule machine) toys at every station. \u00a5100\u2013300 each. They\u2019ll become the highlight of the trip.",
+                desc: "Best: teamLab Planets (barefoot water walking!), Akihabara arcades + gachapon, Cup Noodles Museum (make your own), Kappabashi plastic food workshop, Kamakura Great Buddha (kids love going inside for \u00a550), Ghibli Museum (if you got tickets via Lawson Ticket), Odaiba Gundam statue. Skip: Ginza (boring for kids), long museum visits (pick one, 60 min max). Tip: Let kids collect gachapon (capsule machine) toys at every station. \u00a5100\u2013300 each. They\u2019ll become the highlight of the trip.",
               },
               {
                 title: "Teens (13+)",
@@ -2643,7 +2643,7 @@ export const GUIDES: Guide[] = [
             items: [
               {
                 title: "#1 teamLab Planets",
-                desc: "Immersive, magical, all ages love it. Walk barefoot through water and light. Book 2\u20134 weeks ahead. \u00a53,800. Day 2 itinerary.",
+                desc: "Immersive, magical, all ages love it. Walk barefoot through water and light. Book 2\u20134 weeks ahead. \u00a54,200. Day 2 itinerary.",
               },
               {
                 title: "#2 Akihabara Arcades",
@@ -2651,7 +2651,7 @@ export const GUIDES: Guide[] = [
               },
               {
                 title: "#3 Ueno Zoo",
-                desc: "Tokyo\u2019s oldest zoo. Pandas are the star attraction. \u00a5600 adults, free for children under 12. Inside Ueno Park.",
+                desc: "Tokyo\u2019s oldest zoo. Pandas are the star attraction. \u00a5600 adults, free for children 12 and under. Inside Ueno Park.",
               },
               {
                 title: "#4 Cup Noodles Museum",
@@ -2659,15 +2659,15 @@ export const GUIDES: Guide[] = [
               },
               {
                 title: "#5 Kappabashi Plastic Food Workshop",
-                desc: "Make your own fake food souvenirs at Ganso Shokuhin Sample-ya. \u00a52,500 for 30 minutes. Unique and surprisingly fun.",
+                desc: "Make your own fake food souvenirs at Ganso Shokuhin Sample-ya. from \u00a52,800 for 60 minutes. Unique and surprisingly fun.",
               },
               {
                 title: "#6 Ghibli Museum",
-                desc: "If you got lottery tickets \u2014 magical for Ghibli fans of any age. Stained glass, a cat bus you can climb in, rooftop robot. \u00a51,000.",
+                desc: "If you got tickets (timed-release via Lawson Ticket on the 10th of each month) \u2014 magical for Ghibli fans of any age. Stained glass, a cat bus you can climb in, rooftop robot. \u00a51,000.",
               },
               {
                 title: "#7 Odaiba",
-                desc: "Life-size Gundam statue, beach, Legoland Discovery Center, teamLab Borderless (if relocated here). A full kid-friendly day.",
+                desc: "Life-size Unicorn Gundam statue, beach, Legoland Discovery Center. A full kid-friendly day. (Note: teamLab Borderless is now at Azabudai Hills, not Odaiba.)",
               },
               {
                 title: "#8 Inokashira Park Swan Boats",
@@ -2675,11 +2675,11 @@ export const GUIDES: Guide[] = [
               },
               {
                 title: "#9 Shibuya Sky",
-                desc: "The \u2018whoa\u2019 moment of the trip for any age. Open-air observation at 230m. Book sunset slot. \u00a52,000.",
+                desc: "The \u2018whoa\u2019 moment of the trip for any age. Open-air observation at 230m. Book sunset slot. \u00a52,200.",
               },
               {
                 title: "#10 Kamakura Great Buddha",
-                desc: "A 770-year-old giant bronze statue you can go inside for \u00a550. Kids remember this forever. Day 5 itinerary.",
+                desc: "An over 770-year-old giant bronze statue you can go inside for \u00a550. Kids remember this forever. Day 5 itinerary.",
               },
             ],
           },
@@ -2758,7 +2758,7 @@ export const GUIDES: Guide[] = [
               },
               {
                 title: "Day 2: teamLab + Odaiba",
-                desc: "teamLab Planets in the morning (book first slot) \u2192 Odaiba for lunch (Gundam, beach, Legoland if young kids). All kid-friendly, no rushing.",
+                desc: "teamLab Planets in the morning (book first slot) \u2192 Odaiba for lunch (Unicorn Gundam statue, beach, Legoland if young kids). All kid-friendly, no rushing.",
               },
               {
                 title: "Day 3: Harajuku + Shibuya",

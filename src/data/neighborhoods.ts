@@ -159,7 +159,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
         desc: "A 10-minute walk from Senso-ji, this 800-meter street is where Tokyo\u2019s restaurants buy their supplies. Famous for the incredibly realistic plastic food samples (shokuhin sampuru). You can buy miniature versions as souvenirs or take a workshop to make your own.",
         time: "30\u201360 min",
         cost: "Free (shopping extra)",
-        tip: "Ganso Shokuhin Sample-ya offers 30-minute workshops (\u00a52,500) where you make your own fake food \u2014 surprisingly fun and a unique souvenir.",
+        tip: "Ganso Shokuhin Sample-ya offers 60-minute workshops (\u00a52,800) where you make your own fake food \u2014 surprisingly fun and a unique souvenir.",
       },
     ],
     restaurants: [
@@ -224,7 +224,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
           "Zaru soba (cold soba with dipping sauce). One of Tokyo\u2019s classic soba houses \u2014 the noodles are made fresh.",
         station: "5 min walk from Asakusa Station",
         warning:
-          "Closes when the soba runs out (usually by early afternoon).",
+          "Closed Wednesdays and Thursdays. Regular hours 11:00\u201319:30.",
       },
     ],
     transit: {
@@ -240,7 +240,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
       ],
       fromShinjuku:
         "Marunouchi Line to Ginza, transfer Ginza Line \u00b7 30 min",
-      fromTokyo: "Ginza Line direct \u00b7 15 min",
+      fromTokyo: "Marunouchi Line to Ginza, transfer Ginza Line \u00b7 20 min",
       fromShibuya: "Ginza Line direct \u00b7 30 min",
       walkingTip:
         "Asakusa is very walkable. Everything on this page is within a 15-minute walk of Asakusa Station. Kappabashi is the farthest at 10 minutes. Wear comfortable shoes \u2014 the temple grounds and shopping streets are all on foot.",
@@ -266,7 +266,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     name: "Harajuku & Omotesando",
     subtitle: "Sacred forest meets street-style chaos",
     tagline:
-      "A 700-year-old shrine forest and Tokyo\u2019s wildest fashion street, separated by a single train station.",
+      "A man-made forest planted in 1920, now home to 170 acres of mature woodland, and Tokyo\u2019s wildest fashion street, separated by a single train station.",
     metaDescription:
       "The local\u2019s guide to Harajuku and Omotesando \u2014 Meiji Jingu shrine, Takeshita Street, Cat Street vintage shops, and the best ramen in the area. 2026 edition.",
     keywords: [
@@ -503,7 +503,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
         name: "Shibuya Sky",
         desc: "Open-air rooftop observation deck at 230 meters, on top of Shibuya Scramble Square. Unobstructed 360-degree views \u2014 Mt. Fuji visible on clear days. The outdoor \"sky edge\" section is genuinely thrilling. Budget 60\u201375 minutes.",
         time: "60\u201375 min",
-        cost: "\u00a52,000",
+        cost: "\u00a52,200",
         tip: "Book a 16:30\u201317:00 entry for golden hour. Sunset slots sell out 1\u20132 weeks ahead. No walk-ins for sunset.",
       },
       {
@@ -528,15 +528,15 @@ export const NEIGHBORHOODS: Neighborhood[] = [
         desc: "A design-forward department store reopened in 2019. The top-floor Nintendo store and Capcom store are worth visiting even if you\u2019re not shopping. The art gallery on the upper floors shows interesting contemporary work. The basement food hall is excellent.",
         time: "30\u201360 min",
         cost: "Free (shopping extra)",
-        tip: "The rooftop has a small garden with a Yayoi Kusama pumpkin sculpture.",
+        tip: "The rooftop has a small rooftop garden with city views.",
       },
       {
         rank: 6,
         name: "Hachiko Statue",
-        desc: "The famous statue of the loyal Akita dog who waited at the station for his deceased owner for 9 years. It\u2019s outside the station\u2019s Hachiko Exit. A meeting point for locals, not really a destination \u2014 take a photo and move on.",
+        desc: "The famous statue of the loyal Akita dog who waited at the station for his deceased owner for nearly 10 years. It\u2019s outside the station\u2019s Hachiko Exit. A meeting point for locals, not really a destination \u2014 take a photo and move on.",
         time: "5 min",
         cost: "Free",
-        tip: "There\u2019s a second, lesser-known Hachiko statue inside the station on the Tokyu line concourse \u2014 a mural by the original artist\u2019s student.",
+        tip: "The station\u2019s Hachiko Family ceramic mural was removed during ongoing redevelopment.",
       },
     ],
     restaurants: [
@@ -557,7 +557,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
         priceDetail: "\u00a5200\u2013400 each",
         mustOrder:
           "Sake (salmon) and umeboshi (pickled plum). Handmade to order at the counter, impossibly fresh. The niku-miso (meat miso) is the sleeper hit.",
-        station: "Tomigaya, 15 min walk from Shibuya (or 3 min from Yoyogi-Hachiman Station)",
+        station: "Near Otsuka Station (JR Yamanote Line), not in Shibuya \u2014 worth the detour",
         warning:
           "Counter seating only. Queue is normal but moves fast. Worth the walk from Shibuya.",
       },
@@ -576,7 +576,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
         name: "Uobei",
         cuisine: "Conveyor belt sushi",
         priceRange: "\u00a5",
-        priceDetail: "\u00a5100+ per plate",
+        priceDetail: "\u00a5110+ per plate",
         mustOrder:
           "Salmon, engawa (flounder fin), and shrimp \u2014 order from the touchscreen and plates zoom to your seat on a bullet-train track. Fast, fun, and surprisingly good for the price.",
         station: "2 min walk from Shibuya Station",
@@ -614,7 +614,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
         "Marunouchi Line to Ginza, transfer Ginza Line \u00b7 20 min",
       fromShibuya: "\u2014 (you\u2019re here)",
       walkingTip:
-        "Shibuya Station is being rebuilt through 2027 \u2014 exits and paths change frequently. Use Google Maps for real-time station navigation. Once outside, everything on this page is within a 10-minute walk except Fuglen and Onigiri Bongo (15 min).",
+        "Shibuya Station is being rebuilt through 2034 \u2014 exits and paths change frequently. Use Google Maps for real-time station navigation. Once outside, everything on this page is within a 10-minute walk except Fuglen and Onigiri Bongo (15 min).",
     },
     timing: {
       bestTimeOfDay:
@@ -780,13 +780,13 @@ export const NEIGHBORHOODS: Neighborhood[] = [
       },
       {
         name: "Numazuko",
-        cuisine: "Standing sushi",
+        cuisine: "Conveyor belt sushi",
         priceRange: "\u00a5",
         priceDetail: "\u00a5150\u2013500 per piece",
         mustOrder:
-          "Whatever the board says is today\u2019s special. Standing sushi counter with fish so fresh the prices feel like a mistake. Fast turnover, no reservations.",
+          "Whatever the board says is today\u2019s special. Conveyor belt sushi bar with fish so fresh the prices feel like a mistake. Fast turnover, no reservations.",
         station: "Near east exit, 2 min walk",
-        warning: "Standing only. Quick eat, not a lingering meal.",
+        warning: "Quick eat, not a lingering meal.",
       },
       {
         name: "Golden Gai bars",
@@ -904,7 +904,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
       {
         rank: 2,
         name: "Ginza Six",
-        desc: "A luxury shopping complex with a stunning free rooftop garden. The garden features a Kusama-inspired art installation and panoramic views. It\u2019s a hidden quiet spot above one of Tokyo\u2019s busiest shopping districts. The basement food hall is excellent.",
+        desc: "A luxury shopping complex with a stunning free rooftop garden. The garden features panoramic views (the Kusama art installation is in the atrium below). It\u2019s a hidden quiet spot above one of Tokyo\u2019s busiest shopping districts. The basement food hall is excellent.",
         time: "30\u201345 min",
         cost: "Free",
         tip: "Take the elevator directly to the rooftop. Most tourists don\u2019t know it exists.",
@@ -960,7 +960,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
         priceDetail: "\u00a53,000\u20135,000",
         mustOrder:
           "The omakase (chef\u2019s choice) set. Fish is absurdly fresh \u2014 the quality-to-price ratio is among the best in Tokyo. Shorter queue than the legendary Sushi Dai, equally good.",
-        station: "Inside Tsukiji Outer Market",
+        station: "Toyosu Market (moved from Tsukiji in 2018)",
         warning:
           "Queue can be 30\u201360 min at peak. Go early or late (after 1 PM) for shorter waits.",
       },
@@ -1140,7 +1140,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
         desc: "A Le Corbusier-designed UNESCO building housing an impressive collection of Western art. Rodin\u2019s The Thinker sits in the courtyard. Monet, Renoir, Pollock, and Max Ernst inside. The building itself is as much a work of art as the collection.",
         time: "60\u201390 min",
         cost: "\u00a5500",
-        tip: "Free on the first Sunday of every month. The Rodin sculptures in the courtyard are free to see without entering.",
+        tip: "Free on the second Sunday of every month. The Rodin sculptures in the courtyard are free to see without entering.",
       },
       {
         rank: 7,
@@ -1341,7 +1341,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
         priceRange: "\u00a5",
         priceDetail: "\u00a5500\u2013800",
         mustOrder:
-          "Hand-drip coffee in a building from 1938. The ground floor has a retro counter; the upstairs tatami room overlooks the street. One of Tokyo\u2019s most atmospheric cafes.",
+          "Hand-drip coffee in a building from 1916, serving coffee since 1938. The ground floor has a retro counter; the upstairs tatami room overlooks the street. One of Tokyo\u2019s most atmospheric cafes.",
         station: "Near Nezu Station, 5 min walk from Yanaka Ginza",
         warning:
           "Small space. Can be full on weekend afternoons. Go early or weekday.",
