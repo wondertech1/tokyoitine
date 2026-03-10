@@ -1,65 +1,91 @@
-import Image from "next/image";
+import type { Metadata } from "next";
+import PageContent from "@/components/shared/PageContent";
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: "Tokyo Itinerary 2026 \u2014 1 to 7 Day Plans, Locally Audited",
+  description:
+    "Plan your perfect Tokyo trip from 1 to 7 days. 32 stops, 42 restaurant picks, every train timed. Field-tested by locals for 2026. Free printable plans.",
+  keywords: [
+    "Tokyo itinerary",
+    "Tokyo travel plan",
+    "Tokyo trip planner",
+    "things to do in Tokyo",
+    "Tokyo guide 2026",
+  ],
+  alternates: {
+    canonical: "https://tokyoitine.com",
+  },
+  openGraph: {
+    title: "Tokyo Itinerary 2026 \u2014 Your Perfect Plan from 1 to 7 Days",
+    description:
+      "32 stops. 42 restaurant picks. Every train timed. Locally audited Tokyo itineraries for 2026.",
+    url: "https://tokyoitine.com",
+    images: [
+      {
+        url: "/og/home.png",
+        width: 1200,
+        height: 630,
+        alt: "Tokyo Itinerary 2026",
+      },
+    ],
+  },
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "How many days do you need in Tokyo?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "3-4 days covers central Tokyo\u2019s highlights (Asakusa, Shibuya, Harajuku, Shinjuku, Tsukiji, Ginza, Ueno, Akihabara). 5-6 days lets you add day trips to Kamakura or Nikko. 7 days gives you time for hidden neighborhoods like Shimokitazawa and Kichijoji.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What should I book in advance for Tokyo?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Book Shibuya Sky 1-2 weeks ahead (sunset slots sell out fast), teamLab Planets 2-4 weeks ahead, and the Ghibli Museum 2-3 months ahead via lottery through Lawson. Everything else in Tokyo is walkup-friendly.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is the JR Pass worth it for Tokyo?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "For Tokyo-only trips, no. A digital Suica card is cheaper and simpler. The JR Pass (\u00a550,000 for 7 days) only makes sense if you\u2019re adding day trips to Kamakura and Nikko, or traveling to other cities like Kyoto or Osaka.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is the best area to stay in Tokyo?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Shinjuku is the best base for first-timers \u2014 central hub for the JR Yamanote Line, easy access to all neighborhoods, and packed with restaurants and nightlife. Shibuya is great for younger travelers. Asakusa is best for traditional atmosphere on a budget.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How much does a day in Tokyo cost?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Budget: \u00a57,000-12,500 ($47-83 USD) including food, transport, and one activity. Mid-range: \u00a514,500-23,500 ($97-157 USD). Food is where Tokyo shines \u2014 incredible meals start at \u00a5800 for ramen or \u00a51,500 for a lunch set.",
+      },
+    },
+  ],
+};
+
+export default function HomePage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <PageContent initialDays={3} isDurationPage={false} />
+    </>
   );
 }
