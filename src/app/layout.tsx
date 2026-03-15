@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Instrument_Serif, DM_Sans, JetBrains_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const instrumentSerif = Instrument_Serif({
@@ -53,6 +54,10 @@ export default function RootLayout({
       <body
         className={`${instrumentSerif.variable} ${dmSans.variable} ${jetbrainsMono.variable} antialiased`}
       >
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-P6D9HW5S2H" strategy="afterInteractive" />
+        <Script id="itine-gtag" strategy="afterInteractive" dangerouslySetInnerHTML={{
+          __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-P6D9HW5S2H');`,
+        }} />
         {children}
       </body>
     </html>
