@@ -62,7 +62,7 @@ function getArticleSchema(slug: string) {
       "@type": "Organization",
       name: "Tokyo Itinerary",
     },
-    dateModified: "2026-03-10",
+    dateModified: "2026-03-24",
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": `https://tokyoitine.com/japan/${slug}`,
@@ -97,6 +97,63 @@ function getBreadcrumbSchema(slug: string) {
         item: `https://tokyoitine.com/japan/${slug}`,
       },
     ],
+  };
+}
+
+function getFAQSchema(slug: string) {
+  const faqData: Record<string, { question: string; answer: string }[]> = {
+    "tokyo-to-kyoto": [
+      {
+        question: "How long is the bullet train from Tokyo to Kyoto?",
+        answer:
+          "The Nozomi (fastest) takes about 2 hours 15 minutes. The Hikari takes about 2 hours 40 minutes. The Kodama takes about 3 hours 40 minutes. All depart from Tokyo Station and arrive at Kyoto Station.",
+      },
+      {
+        question:
+          "How much does the shinkansen from Tokyo to Kyoto cost?",
+        answer:
+          "All three train types cost ¥14,170 one way for a non-reserved seat (about $95 USD). Reserved seats cost ¥330–¥530 more depending on season.",
+      },
+      {
+        question:
+          "Can I use a JR Pass on the Tokyo to Kyoto route?",
+        answer:
+          "Yes, but only on the Hikari and Kodama. The Nozomi (fastest, most frequent) is NOT covered by the JR Pass. A 7-day JR Pass costs ¥50,000.",
+      },
+      {
+        question: "Do I need to book the shinkansen in advance?",
+        answer:
+          "No. Unreserved seats are available on every departure and you can just show up at Tokyo Station. During peak periods (Golden Week, Obon, New Year), reserve seats via the SmartEX app or at the station.",
+      },
+      {
+        question:
+          "What is the first and last shinkansen from Tokyo to Kyoto?",
+        answer:
+          "The first Nozomi departs Tokyo Station at 6:00 AM, arriving Kyoto at 8:15 AM. The last Nozomi departs at 9:24 PM, arriving at 11:39 PM. Trains run every 10–20 minutes throughout the day.",
+      },
+      {
+        question:
+          "Is it better to fly or take the train from Tokyo to Kyoto?",
+        answer:
+          "The train is better for almost everyone. The shinkansen is 2h15m city center to city center. Flying takes 4.5–5.5 hours total including airport transit, check-in, and security.",
+      },
+    ],
+  };
+
+  const faqs = faqData[slug];
+  if (!faqs) return null;
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
   };
 }
 
@@ -146,6 +203,7 @@ export default async function ConnectorPage({
 
   const articleSchema = getArticleSchema(slug);
   const breadcrumbSchema = getBreadcrumbSchema(slug);
+  const faqSchema = getFAQSchema(slug);
   const touristTripSchema = getTouristTripSchema(slug);
 
   return (
@@ -163,6 +221,14 @@ export default async function ConnectorPage({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(breadcrumbSchema),
+          }}
+        />
+      )}
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(faqSchema),
           }}
         />
       )}

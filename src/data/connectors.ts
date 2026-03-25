@@ -228,16 +228,22 @@ export const CONNECTOR_PAGES: Guide[] = [
     slug: "tokyo-to-kyoto",
     title: "Tokyo to Kyoto",
     subtitle: "Shinkansen, timing, and what to do when you arrive",
-    metaTitle: "Tokyo to Kyoto 2026 — Shinkansen Guide, Cost & What to Know",
+    metaTitle:
+      "Tokyo to Kyoto: Shinkansen in 2h15m for ¥14,170 — 2026 Guide",
     metaDescription:
-      "How to get from Tokyo to Kyoto by shinkansen: times, costs, JR Pass math, which train to take, what to do on arrival, and how to plan the transition day.",
-    ogTitle: "Tokyo to Kyoto — The Complete Transit Guide",
+      "Get from Tokyo to Kyoto by bullet train in 2h15m for ¥14,170. Nozomi vs Hikari, JR Pass math, how to book via SmartEX, the Mt. Fuji seat hack, and a half-day plan for your travel day. Updated March 2026.",
+    ogTitle: "Tokyo to Kyoto by Shinkansen — ¥14,170, 2h15m, Step-by-Step",
     keywords: [
       "Tokyo to Kyoto",
-      "shinkansen Tokyo Kyoto",
+      "Tokyo to Kyoto shinkansen",
       "Tokyo to Kyoto bullet train",
       "Tokyo to Kyoto cost",
       "Tokyo to Kyoto time",
+      "Tokyo to Kyoto train",
+      "shinkansen Tokyo Kyoto fare 2026",
+      "how to get from Tokyo to Kyoto",
+      "Tokyo to Kyoto JR Pass",
+      "Tokyo station to Kyoto station",
     ],
     color: "#1565C0",
     icon: "🚅",
@@ -248,14 +254,40 @@ export const CONNECTOR_PAGES: Guide[] = [
       { value: "1", label: "BEST SEAT" },
     ],
     tableOfContents: [
+      { id: "quick-reference", label: "Quick Reference" },
       { id: "options", label: "Your Options" },
       { id: "step-by-step", label: "Step-by-Step" },
       { id: "jr-pass", label: "JR Pass Decision" },
       { id: "seat-hack", label: "The Fuji Seat Hack" },
       { id: "transition-day", label: "The Transition Day Plan" },
       { id: "from-kyoto", label: "Coming Back" },
+      { id: "faq", label: "FAQ" },
     ],
     sections: [
+      // ── Section 0: quick-reference ──
+      {
+        id: "quick-reference",
+        label: "00",
+        title: "Quick Reference",
+        content: [
+          {
+            type: "table",
+            headers: ["Detail", "Info"],
+            rows: [
+              ["Distance", "476 km (296 miles)"],
+              ["Fastest train", "Nozomi — 2h15m"],
+              ["Cost (one way)", "¥14,170 (all train types)"],
+              ["First train", "6:00 AM from Tokyo Station"],
+              ["Last train", "9:24 PM from Tokyo Station"],
+              ["Frequency", "3–6 departures per hour (Nozomi)"],
+              ["Booking", "SmartEX app, ticket counter, or machine at Tokyo Station"],
+              ["Platform", "Platforms 14–19 (Tokaido Shinkansen)"],
+              ["JR Pass", "Hikari & Kodama only (not Nozomi)"],
+              ["Seat tip", "Right side (seat E) for Mt. Fuji views"],
+            ],
+          },
+        ],
+      },
       // ── Section 1: options ──
       {
         id: "options",
@@ -386,6 +418,38 @@ export const CONNECTOR_PAGES: Guide[] = [
           {
             type: "tip",
             text: "Planning the full Tokyo → Kyoto → Osaka route? See our Tokyo to Osaka guide → /japan/tokyo-to-osaka",
+          },
+        ],
+      },
+      // ── Section 7: faq ──
+      {
+        id: "faq",
+        label: "07",
+        title: "Frequently Asked Questions",
+        content: [
+          {
+            type: "prose",
+            text: "**How long is the bullet train from Tokyo to Kyoto?**\nThe Nozomi (fastest) takes about 2 hours 15 minutes. The Hikari takes about 2 hours 40 minutes. The Kodama takes about 3 hours 40 minutes. All depart from Tokyo Station and arrive at Kyoto Station.",
+          },
+          {
+            type: "prose",
+            text: "**How much does the shinkansen from Tokyo to Kyoto cost?**\nAll three train types cost ¥14,170 one way for a non-reserved seat (about $95 USD). Reserved seats cost ¥330–¥530 more depending on season. The price is the same whether you take the Nozomi, Hikari, or Kodama.",
+          },
+          {
+            type: "prose",
+            text: "**Can I use a JR Pass on the Tokyo to Kyoto route?**\nYes, but only on the Hikari and Kodama. The Nozomi (fastest, most frequent) is NOT covered by the JR Pass. A 7-day JR Pass costs ¥50,000 — you need more than just the Tokyo-Kyoto round trip to make it worthwhile.",
+          },
+          {
+            type: "prose",
+            text: "**Do I need to book in advance?**\nNo. Unreserved seats are available on every departure and you can just show up at Tokyo Station. During peak periods (Golden Week, Obon, New Year), reserve seats via the SmartEX app or at the station to guarantee a spot.",
+          },
+          {
+            type: "prose",
+            text: "**What is the first and last shinkansen from Tokyo to Kyoto?**\nThe first Nozomi departs Tokyo Station at 6:00 AM, arriving Kyoto at 8:15 AM. The last Nozomi departs at 9:24 PM, arriving at 11:39 PM. Trains run every 10–20 minutes throughout the day.",
+          },
+          {
+            type: "prose",
+            text: "**Is it better to fly or take the train from Tokyo to Kyoto?**\nThe train is better for almost everyone. The shinkansen is 2h15m city center to city center. Flying requires getting to Haneda/Narita (1+ hour), check-in, security, the flight itself (1h15m), then transit from Kansai/Itami airport to Kyoto (75–90 min). Total flight time: 4.5–5.5 hours. The shinkansen is faster, cheaper, and more comfortable.",
           },
         ],
       },
