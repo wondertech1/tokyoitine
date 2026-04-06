@@ -84,6 +84,10 @@ export const CONNECTOR_PAGES: Guide[] = [
             type: "prose",
             text: "But really — the shinkansen is 2 hours 14 minutes. You can do both.",
           },
+          {
+            type: "prose",
+            text: "For detailed Kyoto planning, see our [Kyoto itineraries](https://kyoto-itinerary.com/kyoto-itinerary) — we cover 1 to 5 day plans organized by district to minimize transit time.",
+          },
         ],
       },
       // ── Section 2: comparison ──
@@ -227,23 +231,22 @@ export const CONNECTOR_PAGES: Guide[] = [
   {
     slug: "tokyo-to-kyoto",
     title: "Tokyo to Kyoto",
-    subtitle: "Shinkansen, timing, and what to do when you arrive",
-    metaTitle:
-      "Tokyo to Kyoto: Shinkansen in 2h15m for ¥14,170 — 2026 Guide",
+    subtitle: "Shinkansen ¥14,170 (2h 15m) — step-by-step guide with JR Pass math and the Mt. Fuji seat hack",
+    metaTitle: "Tokyo to Kyoto: Shinkansen ¥14,170 (2h15m) — Trains, JR Pass & 2026 Guide",
     metaDescription:
-      "Get from Tokyo to Kyoto by bullet train in 2h15m for ¥14,170. Nozomi vs Hikari, JR Pass math, how to book via SmartEX, the Mt. Fuji seat hack, and a half-day plan for your travel day. Updated March 2026.",
-    ogTitle: "Tokyo to Kyoto by Shinkansen — ¥14,170, 2h15m, Step-by-Step",
+      "Tokyo to Kyoto by shinkansen: ¥14,170 one way, 2h 15m on the Nozomi from Tokyo Station. Step-by-step boarding guide, JR Pass break-even math, which seat for Mt. Fuji views, and a transition-day itinerary so you don't waste a day on travel.",
+    ogTitle: "Tokyo to Kyoto ¥14,170 — Shinkansen Guide 2026",
     keywords: [
       "Tokyo to Kyoto",
-      "Tokyo to Kyoto shinkansen",
-      "Tokyo to Kyoto bullet train",
-      "Tokyo to Kyoto cost",
-      "Tokyo to Kyoto time",
-      "Tokyo to Kyoto train",
-      "shinkansen Tokyo Kyoto fare 2026",
-      "how to get from Tokyo to Kyoto",
-      "Tokyo to Kyoto JR Pass",
-      "Tokyo station to Kyoto station",
+      "tokyo to kyoto shinkansen",
+      "how to get from tokyo to kyoto",
+      "kyoto from tokyo",
+      "shinkansen tokyo kyoto price 2026",
+      "tokyo to kyoto cost",
+      "tokyo to kyoto bullet train",
+      "tokyo to kyoto time",
+      "jr pass tokyo kyoto",
+      "shinkansen tokyo to kyoto cost",
     ],
     color: "#1565C0",
     icon: "🚅",
@@ -416,6 +419,10 @@ export const CONNECTOR_PAGES: Guide[] = [
             text: "**If returning to Tokyo:** same shinkansen, same stations, reverse direction. Sit on the LEFT for Mt. Fuji.\n\n**If continuing to Osaka:** JR Special Rapid from Kyoto Station to Osaka Station, 29 minutes, ¥580. Covered by JR Pass. No shinkansen needed — it's that close. Many travelers do Kyoto + Osaka together and fly home from Kansai Airport (KIX).",
           },
           {
+            type: "prose",
+            text: "Once you arrive, our [Kyoto travel guide](https://kyoto-itinerary.com) has detailed itineraries from 1 to 5 days — with hour-by-hour timing, temple entry fees, and district-by-district walking routes. For navigating Kyoto Station itself, see our [Kyoto Station guide](https://kyoto-itinerary.com/kyoto-station-guide).",
+          },
+          {
             type: "tip",
             text: "Planning the full Tokyo → Kyoto → Osaka route? See our Tokyo to Osaka guide → /japan/tokyo-to-osaka",
           },
@@ -429,27 +436,27 @@ export const CONNECTOR_PAGES: Guide[] = [
         content: [
           {
             type: "prose",
-            text: "**How long is the bullet train from Tokyo to Kyoto?**\nThe Nozomi (fastest) takes about 2 hours 15 minutes. The Hikari takes about 2 hours 40 minutes. The Kodama takes about 3 hours 40 minutes. All depart from Tokyo Station and arrive at Kyoto Station.",
+            text: "**How do I get from Tokyo to Kyoto?**\nThe best way is the Tokaido Shinkansen (bullet train) from Tokyo Station. The Nozomi takes 2h 15m and costs ¥14,170 one way. Trains depart every 10–20 minutes from platforms 14–19. No advance reservation required — you can buy a ticket and board the next train.",
           },
           {
             type: "prose",
-            text: "**How much does the shinkansen from Tokyo to Kyoto cost?**\nAll three train types cost ¥14,170 one way for a non-reserved seat (about $95 USD). Reserved seats cost ¥330–¥530 more depending on season. The price is the same whether you take the Nozomi, Hikari, or Kodama.",
+            text: "**How much does the shinkansen from Tokyo to Kyoto cost?**\nAll three shinkansen types (Nozomi, Hikari, Kodama) cost the same: ¥14,170 for an unreserved seat, ¥14,690 for a reserved seat. A 7-day JR Pass costs ¥50,000 and covers the Hikari and Kodama but NOT the Nozomi. The pass is only worth it if you're also visiting Osaka, Hiroshima, or other distant cities.",
           },
           {
             type: "prose",
-            text: "**Can I use a JR Pass on the Tokyo to Kyoto route?**\nYes, but only on the Hikari and Kodama. The Nozomi (fastest, most frequent) is NOT covered by the JR Pass. A 7-day JR Pass costs ¥50,000 — you need more than just the Tokyo-Kyoto round trip to make it worthwhile.",
+            text: "**How long does it take to get from Tokyo to Kyoto?**\nThe Nozomi takes about 2 hours 15 minutes. The Hikari takes about 2 hours 40 minutes (a few extra stops). The Kodama takes 3 hours 40 minutes and stops at every station — avoid it unless you have a specific reason.",
           },
           {
             type: "prose",
-            text: "**Do I need to book in advance?**\nNo. Unreserved seats are available on every departure and you can just show up at Tokyo Station. During peak periods (Golden Week, Obon, New Year), reserve seats via the SmartEX app or at the station to guarantee a spot.",
+            text: "**Is the JR Pass worth it for Tokyo to Kyoto?**\nNot if you're only doing Tokyo + Kyoto. The round-trip shinkansen is about ¥28,340, and a 7-day JR Pass costs ¥50,000. You need a third city (Osaka, Hiroshima, or Nara day trips) to break even. See the JR Pass math table above for specific scenarios.",
           },
           {
             type: "prose",
-            text: "**What is the first and last shinkansen from Tokyo to Kyoto?**\nThe first Nozomi departs Tokyo Station at 6:00 AM, arriving Kyoto at 8:15 AM. The last Nozomi departs at 9:24 PM, arriving at 11:39 PM. Trains run every 10–20 minutes throughout the day.",
+            text: "**Which side of the shinkansen has the Mt. Fuji view?**\nSit on the RIGHT side (seat E, window) when traveling from Tokyo to Kyoto. On the return trip, sit on the LEFT side (seat A, window). Mt. Fuji is visible for about 3–5 minutes around the 45-minute mark — only on clear days. Check the weather in Shizuoka before choosing your seat.",
           },
           {
             type: "prose",
-            text: "**Is it better to fly or take the train from Tokyo to Kyoto?**\nThe train is better for almost everyone. The shinkansen is 2h15m city center to city center. Flying requires getting to Haneda/Narita (1+ hour), check-in, security, the flight itself (1h15m), then transit from Kansai/Itami airport to Kyoto (75–90 min). Total flight time: 4.5–5.5 hours. The shinkansen is faster, cheaper, and more comfortable.",
+            text: "**How far is Tokyo from Kyoto?**\nTokyo to Kyoto is approximately 476 km (296 miles) by rail. By shinkansen it takes 2h 15m. Flying is possible but slower door-to-door (2–3 hours of airport transit on each end). There is no direct highway bus worth taking — the shinkansen is the clear best option.",
           },
         ],
       },
@@ -578,7 +585,7 @@ export const CONNECTOR_PAGES: Guide[] = [
           },
           {
             type: "prose",
-            text: "This is the Golden Route — and it doesn't cost any extra on the shinkansen because you would've passed through Kyoto anyway.",
+            text: "This is the Golden Route — and it doesn't cost any extra on the shinkansen because you would've passed through Kyoto anyway. Our [Osaka to Kyoto guide](https://kyoto-itinerary.com/osaka-to-kyoto) covers the quick 15-minute connection.",
           },
           {
             type: "tip",
@@ -598,7 +605,7 @@ export const CONNECTOR_PAGES: Guide[] = [
           },
           {
             type: "tip",
-            text: "Osaka's full itinerary is coming soon at osakaitinerary.com — stay tuned for the complete neighborhood-by-neighborhood guide.",
+            text: "For the complete Osaka guide, see [osakaitinerary.com](https://osakaitinerary.com) — with neighborhood-by-neighborhood routes and street food maps.",
           },
         ],
       },
@@ -760,7 +767,7 @@ export const CONNECTOR_PAGES: Guide[] = [
         content: [
           {
             type: "prose",
-            text: "Kyoto's itinerary will be fully detailed on kyotoitinerary.com (coming soon). Here's the framework:",
+            text: "For complete Kyoto planning, see our [Kyoto travel guide](https://kyoto-itinerary.com) — with [3-day](https://kyoto-itinerary.com/kyoto-3-day-itinerary) and [5-day](https://kyoto-itinerary.com/kyoto-5-day-itinerary) itineraries organized by district. Here's the framework:",
           },
           {
             type: "cards",
@@ -801,7 +808,7 @@ export const CONNECTOR_PAGES: Guide[] = [
           },
           {
             type: "tip",
-            text: "Osaka's full itinerary is coming soon at osakaitinerary.com — stay tuned for the complete guide.",
+            text: "For the complete Osaka guide, see [osakaitinerary.com](https://osakaitinerary.com) — with detailed itineraries from 1 to 3 days.",
           },
         ],
       },
@@ -1070,6 +1077,10 @@ export const CONNECTOR_PAGES: Guide[] = [
           {
             type: "tip",
             text: "See the complete 14-day plan → /japan/2-week-japan-itinerary",
+          },
+          {
+            type: "prose",
+            text: "Our [3-day Kyoto itinerary](https://kyoto-itinerary.com/kyoto-3-day-itinerary) fits perfectly into the Golden Route — three days organized by district with temple walks, seasonal notes, and budget estimates. For the Kansai leg as a whole, see our [Kyoto + Osaka + Nara circuit](https://kyoto-itinerary.com/kyoto-osaka-nara-itinerary).",
           },
         ],
       },

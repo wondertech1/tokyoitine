@@ -104,21 +104,29 @@ function getFAQSchema(slug: string) {
   const faqData: Record<string, { question: string; answer: string }[]> = {
     "tokyo-to-kyoto": [
       {
-        question: "How long is the bullet train from Tokyo to Kyoto?",
+        question: "How do I get from Tokyo to Kyoto?",
+        answer:
+          "The best way is the Tokaido Shinkansen (bullet train) from Tokyo Station. The Nozomi takes 2h 15m and costs ¥14,170 one way. Trains depart every 10–20 minutes from platforms 14–19. No advance reservation required.",
+      },
+      {
+        question: "How much does the shinkansen from Tokyo to Kyoto cost?",
+        answer:
+          "All three train types cost ¥14,170 one way for a non-reserved seat (about $95 USD). Reserved seats cost ¥330–¥530 more depending on season. A 7-day JR Pass costs ¥50,000 and covers the Hikari and Kodama but NOT the Nozomi.",
+      },
+      {
+        question: "How long does it take to get from Tokyo to Kyoto?",
         answer:
           "The Nozomi (fastest) takes about 2 hours 15 minutes. The Hikari takes about 2 hours 40 minutes. The Kodama takes about 3 hours 40 minutes. All depart from Tokyo Station and arrive at Kyoto Station.",
       },
       {
-        question:
-          "How much does the shinkansen from Tokyo to Kyoto cost?",
+        question: "Is the JR Pass worth it for Tokyo to Kyoto?",
         answer:
-          "All three train types cost ¥14,170 one way for a non-reserved seat (about $95 USD). Reserved seats cost ¥330–¥530 more depending on season.",
+          "Not if you're only doing Tokyo + Kyoto. The round-trip shinkansen is about ¥28,340, and a 7-day JR Pass costs ¥50,000. You need a third city (Osaka, Hiroshima) to break even.",
       },
       {
-        question:
-          "Can I use a JR Pass on the Tokyo to Kyoto route?",
+        question: "Which side of the shinkansen has the Mt. Fuji view?",
         answer:
-          "Yes, but only on the Hikari and Kodama. The Nozomi (fastest, most frequent) is NOT covered by the JR Pass. A 7-day JR Pass costs ¥50,000.",
+          "Sit on the RIGHT side (seat E, window) from Tokyo to Kyoto. On the return, sit on the LEFT side (seat A). Mt. Fuji is visible for about 3–5 minutes around the 45-minute mark on clear days.",
       },
       {
         question: "Do I need to book the shinkansen in advance?",
@@ -126,16 +134,14 @@ function getFAQSchema(slug: string) {
           "No. Unreserved seats are available on every departure and you can just show up at Tokyo Station. During peak periods (Golden Week, Obon, New Year), reserve seats via the SmartEX app or at the station.",
       },
       {
-        question:
-          "What is the first and last shinkansen from Tokyo to Kyoto?",
+        question: "What is the first and last shinkansen from Tokyo to Kyoto?",
         answer:
           "The first Nozomi departs Tokyo Station at 6:00 AM, arriving Kyoto at 8:15 AM. The last Nozomi departs at 9:24 PM, arriving at 11:39 PM. Trains run every 10–20 minutes throughout the day.",
       },
       {
-        question:
-          "Is it better to fly or take the train from Tokyo to Kyoto?",
+        question: "How far is Tokyo from Kyoto?",
         answer:
-          "The train is better for almost everyone. The shinkansen is 2h15m city center to city center. Flying takes 4.5–5.5 hours total including airport transit, check-in, and security.",
+          "Tokyo to Kyoto is approximately 476 km (296 miles) by rail. By shinkansen it takes 2h 15m. Flying is possible but slower door-to-door (4.5–5.5 hours total including airport transit, check-in, and security).",
       },
     ],
   };
