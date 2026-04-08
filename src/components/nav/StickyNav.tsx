@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { PLAN_TRIP_URL } from "@/components/ItinePhoneVideo";
 
 interface StickyNavProps {
   selectedDays: number;
@@ -84,12 +85,20 @@ export default function StickyNav({
           </div>
         </div>
 
-        {/* Right — Freshness indicator */}
-        <div className="flex items-center gap-2">
+        {/* Right — CTA + Freshness */}
+        <div className="flex items-center gap-4">
           <span className="font-mono text-[10px] text-gray-400 tracking-wide hidden sm:block">
             Updated Mar 2026
           </span>
-          <div className="w-1.5 h-1.5 rounded-full bg-[#4CAF50] animate-pulse" />
+          <div className="w-1.5 h-1.5 rounded-full bg-[#4CAF50] animate-pulse hidden sm:block" />
+          <a
+            href={PLAN_TRIP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#E53935] text-white px-4 py-1.5 font-mono text-[10px] font-bold tracking-[1px] hover:bg-[#C62828] transition-colors"
+          >
+            PLAN A TRIP
+          </a>
         </div>
       </div>
     </nav>

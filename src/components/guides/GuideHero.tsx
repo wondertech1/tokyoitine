@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import type { Guide } from "@/data/guides";
+import ItinePhoneVideo from "@/components/ItinePhoneVideo";
 
 interface GuideHeroProps {
   guide: Guide;
@@ -21,7 +22,8 @@ export default function GuideHero({ guide }: GuideHeroProps) {
           {guide.icon}
         </div>
 
-        <div className="relative z-10">
+        <div className="relative z-10 flex flex-col lg:flex-row lg:items-start lg:gap-10">
+          <div className="flex-1 min-w-0">
           <div
             className="w-16 h-[2px] mb-6"
             style={{ backgroundColor: guide.color }}
@@ -80,6 +82,9 @@ export default function GuideHero({ guide }: GuideHeroProps) {
               ))}
             </div>
           </div>
+          <ItinePhoneVideo variant="inline" />
+          </div>
+          <ItinePhoneVideo variant="desktop" />
         </div>
       </motion.div>
     </section>

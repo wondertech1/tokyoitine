@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import type { Neighborhood } from "@/data/neighborhoods";
+import ItinePhoneVideo from "@/components/ItinePhoneVideo";
 
 interface NeighborhoodHeroProps {
   neighborhood: Neighborhood;
@@ -24,6 +25,8 @@ export default function NeighborhoodHero({
           transition={{ duration: 0.5 }}
           className="relative z-10"
         >
+          <div className="flex flex-col lg:flex-row lg:items-start lg:gap-10">
+          <div className="flex-1 min-w-0">
           {/* Parent day badge */}
           <div className="flex items-center gap-3 mb-6">
             <span
@@ -73,6 +76,10 @@ export default function NeighborhoodHero({
                 </span>
               </div>
             ))}
+          </div>
+          <ItinePhoneVideo variant="inline" />
+          </div>
+          <ItinePhoneVideo variant="desktop" />
           </div>
         </motion.div>
       </div>
