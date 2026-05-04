@@ -1139,7 +1139,7 @@ export const GUIDES: Guide[] = [
           },
           {
             type: "tip",
-            text: "Planning Tokyo + Kyoto? See the full shinkansen guide with step-by-step instructions and the Mt. Fuji seat hack \u2192 /japan/tokyo-to-kyoto",
+            text: "Planning Tokyo + Kyoto? See the full [shinkansen guide](/japan/tokyo-to-kyoto) with step-by-step instructions and the Mt. Fuji seat hack, and our [Kyoto travel guide](https://kyotoitinerary.com) for itineraries once you arrive.",
           },
         ],
       },
@@ -1437,7 +1437,7 @@ export const GUIDES: Guide[] = [
           },
           {
             type: "tip",
-            text: "See the complete 14-day budget breakdown across Tokyo, Kyoto, and Osaka \u2192 /japan/2-week-japan-itinerary",
+            text: "See the complete [14-day budget breakdown](/japan/2-week-japan-itinerary) across Tokyo, [Kyoto](https://kyotoitinerary.com/kyoto-budget-guide), and Osaka.",
           },
         ],
       },
@@ -2453,7 +2453,7 @@ export const GUIDES: Guide[] = [
           },
           {
             type: "tip",
-            text: "Hakone also fits into the Japan Golden Route as a stopover between Tokyo and Kyoto \u2192 /japan/golden-route",
+            text: "Hakone also fits into the [Japan Golden Route](/japan/golden-route) as a stopover between Tokyo and [Kyoto](https://kyotoitinerary.com).",
           },
         ],
       },

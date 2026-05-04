@@ -86,7 +86,7 @@ export const CONNECTOR_PAGES: Guide[] = [
           },
           {
             type: "prose",
-            text: "For detailed Kyoto planning, see our [Kyoto itineraries](https://kyoto-itinerary.com/kyoto-itinerary) — we cover 1 to 5 day plans organized by district to minimize transit time.",
+            text: "For detailed Kyoto planning, see our [Kyoto itineraries](https://kyotoitinerary.com/kyoto-itinerary) — we cover 1 to 5 day plans organized by district to minimize transit time.",
           },
         ],
       },
@@ -420,7 +420,7 @@ export const CONNECTOR_PAGES: Guide[] = [
           },
           {
             type: "prose",
-            text: "Once you arrive, our [Kyoto travel guide](https://kyoto-itinerary.com) has detailed itineraries from 1 to 5 days — with hour-by-hour timing, temple entry fees, and district-by-district walking routes. For navigating Kyoto Station itself, see our [Kyoto Station guide](https://kyoto-itinerary.com/kyoto-station-guide).",
+            text: "Once you arrive, our [Kyoto travel guide](https://kyotoitinerary.com) has detailed itineraries from 1 to 5 days — with hour-by-hour timing, temple entry fees, and district-by-district walking routes. For navigating Kyoto Station itself, see our [Kyoto Station guide](https://kyotoitinerary.com/kyoto-station-guide).",
           },
           {
             type: "tip",
@@ -585,7 +585,7 @@ export const CONNECTOR_PAGES: Guide[] = [
           },
           {
             type: "prose",
-            text: "This is the Golden Route — and it doesn't cost any extra on the shinkansen because you would've passed through Kyoto anyway. Our [Osaka to Kyoto guide](https://kyoto-itinerary.com/osaka-to-kyoto) covers the quick 15-minute connection.",
+            text: "This is the Golden Route — and it doesn't cost any extra on the shinkansen because you would've passed through Kyoto anyway. Our [Osaka to Kyoto guide](https://kyotoitinerary.com/osaka-to-kyoto) covers the quick 15-minute connection.",
           },
           {
             type: "tip",
@@ -767,7 +767,7 @@ export const CONNECTOR_PAGES: Guide[] = [
         content: [
           {
             type: "prose",
-            text: "For complete Kyoto planning, see our [Kyoto travel guide](https://kyoto-itinerary.com) — with [3-day](https://kyoto-itinerary.com/kyoto-3-day-itinerary) and [5-day](https://kyoto-itinerary.com/kyoto-5-day-itinerary) itineraries organized by district. Here's the framework:",
+            text: "For complete Kyoto planning, see our [Kyoto travel guide](https://kyotoitinerary.com) — with [3-day](https://kyotoitinerary.com/kyoto-3-day-itinerary) and [5-day](https://kyotoitinerary.com/kyoto-5-day-itinerary) itineraries organized by district. Here's the framework:",
           },
           {
             type: "cards",
@@ -1080,7 +1080,7 @@ export const CONNECTOR_PAGES: Guide[] = [
           },
           {
             type: "prose",
-            text: "Our [3-day Kyoto itinerary](https://kyoto-itinerary.com/kyoto-3-day-itinerary) fits perfectly into the Golden Route — three days organized by district with temple walks, seasonal notes, and budget estimates. For the Kansai leg as a whole, see our [Kyoto + Osaka + Nara circuit](https://kyoto-itinerary.com/kyoto-osaka-nara-itinerary).",
+            text: "Our [3-day Kyoto itinerary](https://kyotoitinerary.com/kyoto-3-day-itinerary) fits perfectly into the Golden Route — three days organized by district with temple walks, seasonal notes, and budget estimates. For the Kansai leg as a whole, see our [Kyoto + Osaka + Nara circuit](https://kyotoitinerary.com/kyoto-osaka-nara-itinerary).",
           },
         ],
       },

@@ -8,8 +8,9 @@ import GuideRestaurantList from "./GuideRestaurantList";
 import GuideChecklist from "./GuideChecklist";
 
 function formatProse(text: string): string {
-  // Convert **bold** to <strong> and *italic* to <em>
   return text
+    .replace(/\[(.+?)\]\((https?:\/\/.+?)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">$1</a>')
+    .replace(/\[(.+?)\]\((.+?)\)/g, '<a href="$2" class="text-blue-600 hover:underline">$1</a>')
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/\*(.+?)\*/g, "<em>$1</em>")
     .replace(/\n\n/g, "</p><p>")
